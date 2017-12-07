@@ -1,0 +1,77 @@
+body,
+p,
+h3,
+table,
+a,
+input {
+  font-family: courier, 'Anonymous Pro', 'Space Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: .875rem;
+}
+
+a {
+  font-size: .875rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th:empty,
+td:empty {
+  display: none;
+}
+
+.bug {
+  color: #3D9970;
+}
+
+.fighting {
+  color: #FF4136;
+}
+
+.fire {
+  color: #FF851B;
+}
+
+.ghost {
+  color: #B10DC9;
+}
+
+.grass {
+  color: #2ECC40;
+}
+
+.normal {
+  color: #AAAAAA;
+}
+
+.poison {
+  color: #85144b;
+}
+
+.psychic {
+  color: #F012BE;
+}
+
+.water {
+  color: #0074D9;
+}
