@@ -33,6 +33,7 @@ a {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  margin-bottom: 3rem;
 }
 
 th:empty,
@@ -74,4 +75,8 @@ td:empty {
 
 .water {
   color: #0074D9;
+}
+
+.App {
+  padding: 1rem;
 }
