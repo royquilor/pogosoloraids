@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MvpPokemon from './MvpPokemon';
-import Table from './Table';
+import Table from '../components/Table/Table';
 import TableHeader from './TableHeader'
 
 class MvpList extends Component {

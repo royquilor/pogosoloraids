@@ -1,4 +1,5 @@
 import React from 'react';
+import './SiteNav.css'
 
 const SiteNav = (props) => {
   return (

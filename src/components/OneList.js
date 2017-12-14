@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import OnePokemon from './OnePokemon';
-import Table from './Table';
+import Table from '../components/Table/Table';
 import TableHeader from './TableHeader'
 
 class OneList extends Component {
@@ -11,7 +11,17 @@ class OneList extends Component {
 
     const oneList = one.map(pokemon => {
       return (
-        <OnePokemon key={pokemon.id} raidboss={pokemon.raidboss} moveset={pokemon.moveset} trainer={pokemon.trainer} link={pokemon.link} classname={pokemon.classname} name={pokemon.name}/>
+        <OnePokemon
+          key={pokemon.id}
+          raidboss={pokemon.raidboss}
+          bossmoveset={pokemon.bossmoveset}
+          trainer={pokemon.trainer}
+          link={pokemon.link}
+          classname={pokemon.classname}
+          moveset={pokemon.moveset}
+          name={pokemon.name}
+          level={pokemon.level}
+          cp={pokemon.cp}/>
       )
     })
 
@@ -25,6 +35,9 @@ class OneList extends Component {
             <TableHeader>Trainer</TableHeader>
             <TableHeader>Link</TableHeader>
             <TableHeader>Pokemon</TableHeader>
+            <TableHeader>Moveset</TableHeader>
+            <TableHeader>Level</TableHeader>
+            <TableHeader>CP</TableHeader>
           </tr>
         </thead>
         <tbody>

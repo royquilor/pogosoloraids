@@ -1,3 +1,8 @@
+body {
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+
 body,
 p,
 h3,
@@ -24,6 +29,7 @@ h2 {
 
 h3 {
   font-size: .875rem;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -75,8 +81,4 @@ td:empty {
 
 .water {
   color: #0074D9;
-}
-
-.App {
-  padding: 1rem;
 }
