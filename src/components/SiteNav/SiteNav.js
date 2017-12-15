@@ -1,12 +1,16 @@
 import React from 'react';
 import './SiteNav.css'
 
+import {
+  Link
+} from 'react-router-dom';
+
 const SiteNav = (props) => {
   return (
     <nav>
-      <a className="pr3" href="/">Home</a>
-      <a className="pr3" href="/">About</a>
-      <a className="pr3" href="/">Contact</a>
+      <Link to="/">Home</Link>
+      <Link to="/Gengar">Gengar</Link>
+      
     </nav>
   )
 }

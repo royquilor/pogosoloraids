@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Pokemon from '../../components/Pokemon';
-import Table from '../../components/Table/Table';
-import TableHeader from '../../components/TableHeader'
-import TableFooter from '../../components/TableFooter'
+import Pokemon from './Pokemon';
+import Table from './Table/Table';
+import TableHeader from './TableHeader'
+import TableFooter from './TableFooter'
 
 class GengarShadowBallList extends Component {
 
