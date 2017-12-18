@@ -3,7 +3,6 @@ import TableCell from './TableCell'
 
 class Pokemon extends React.Component {
   render(){
-    //const { details } = this.props;
     return (
         <tr>
           <TableCell>{this.props.id}</TableCell>

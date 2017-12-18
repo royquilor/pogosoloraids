@@ -16,7 +16,7 @@ class MvpList extends Component {
     })
 
     return (
-      <div>
+      <div className="pa3">
         <Table heading={"MVP"}>
         <thead>
           <tr>

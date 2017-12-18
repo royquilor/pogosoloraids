@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './tachyons.css';
 import App from './App';
-
+import Home from './components/Home';
 import mvp from './data/mvp'
 import fastest from './data/fastest'
 import one from './data/one'

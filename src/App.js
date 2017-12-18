@@ -19,9 +19,15 @@ import MvpList from './components/MvpList';
 import FastestList from './components/FastestList';
 import OneList from './components/OneList';
 
-import Home from './components/Home/Home';
-import Gengar from './components/Gengar/Gengar';
+import Home from './components/Home';
+import Gengar from './components/Gengar';
 // import Routes from './routes';
+
+import gengarfb from './data/gengar/gengarFocusBlast'
+
+import GengarFocusBlastList from './components/GengarFocusBlastList';
+import GengarSludgeBombList from './components/GengarSludgeBombList';
+import GengarShadowBallList from './components/GengarShadowBallList';
 
 import './App.css';
 
@@ -49,7 +55,11 @@ class App extends Component {
           <FastestList fastest={this.props.fastest} />
           <OneList one={this.props.one} />
 
-
+          {/*
+          <GengarFocusBlastList gengarfb={this.props.gengarfb} />
+          <GengarSludgeBombList gengarsgb={this.props.gengarsgb} />
+          <GengarShadowBallList gengarsb={this.props.gengarsb} />
+          */}
 
         </div>
       </Router>

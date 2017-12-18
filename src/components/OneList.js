@@ -26,7 +26,7 @@ class OneList extends Component {
     })
 
     return (
-      <div>
+      <div className="pa3">
         <Table heading={"1v1"}>
         <thead>
           <tr>
