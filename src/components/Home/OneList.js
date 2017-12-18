@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import OnePokemon from './OnePokemon';
-import Table from '../components/Table/Table';
-import TableHeader from './TableHeader'
+import Table from '../Table/Table';
+import TableHeader from '../Table/TableHeader'
 
 class OneList extends Component {
 

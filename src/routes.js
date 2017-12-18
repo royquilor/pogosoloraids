@@ -7,7 +7,7 @@ import Gengar from '././components/Gengar/Gengar';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path='/' component={Gengar} />
+      <Route exact path='/' exactly component={Home} />
       <Route exact path='/gengar' component={Gengar} />
     </Switch>
   </BrowserRouter>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import MvpPokemon from './MvpPokemon';
-import Table from '../components/Table/Table';
-import TableHeader from './TableHeader'
+import Table from '../Table/Table';
+import TableHeader from '../Table/TableHeader'
 
 class MvpList extends Component {
 

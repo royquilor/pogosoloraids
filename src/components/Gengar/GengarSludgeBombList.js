@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Pokemon from '../Pokemon';
+import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
-import TableHeader from '../TableHeader'
-import TableFooter from '../TableFooter'
+import TableHeader from '../Table/TableHeader'
+import TableFooter from '../Table/TableFooter'
 
 class GengarSludgeBombList extends Component {
 

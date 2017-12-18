@@ -10,16 +10,7 @@ import Header from './components/Header/Header';
 import SiteNav from './components/SiteNav/SiteNav';
 import SubNav from './components/SubNav/SubNav';
 
-import MvpPokemon from './components/MvpPokemon';
-import FastestPokemon from './components/FastestPokemon';
-import OnePokemon from './components/OnePokemon';
-import Pokemon from './components/Pokemon';
-
-import MvpList from './components/MvpList';
-import FastestList from './components/FastestList';
-import OneList from './components/OneList';
-
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Gengar from './components/Gengar/Gengar';
 
 import './App.css';

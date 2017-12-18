@@ -1,5 +1,5 @@
 import React from 'react';
-import TableCell from './TableCell'
+import TableCell from '../Table/TableCell'
 
 class OnePokemon extends React.Component {
   render(){

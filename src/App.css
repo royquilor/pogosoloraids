@@ -63,7 +63,8 @@ td:empty {
   color: #B10DC9;
 }
 
-.grass {
+.grass,
+.grasspsychic {
   color: #2ECC40;
 }
 
@@ -71,7 +72,8 @@ td:empty {
   color: #AAAAAA;
 }
 
-.poison {
+.poison,
+.ghostpoison {
   color: #85144b;
 }
 

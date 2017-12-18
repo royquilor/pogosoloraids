@@ -34,7 +34,7 @@ export default [
     name: 'Exeguttor',
     moveset: 'Bullet Seed, Solar Beam',
     raidboss: 'Omastar',
-    classname:'rockwater'
+    classname:'grasspsychic'
   },{
     id: 6,
     name: 'Machamp',

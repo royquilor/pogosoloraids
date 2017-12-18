@@ -2,15 +2,15 @@ import React from 'react';
 import './SiteNav.css'
 
 import {
-  Link
+  NavLink
 } from 'react-router-dom';
 
 const SiteNav = (props) => {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/Gengar">Gengar</Link>
-      
+      <NavLink to="/" exact={true} activeClassName="active">Home</NavLink>
+      <NavLink to="/Gengar" activeClassName="active">Gengar</NavLink>
+
     </nav>
   )
 }
