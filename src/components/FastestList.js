@@ -16,7 +16,7 @@ class FastestList extends Component {
     })
 
     return (
-      <div className="pa3">
+      <div>
         <Table heading={"Fastest"}>
         <thead>
           <tr>

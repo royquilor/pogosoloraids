@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import gengarfb from '../data/gengar/gengarFocusBlast'
-import gengarsgb from '../data/gengar/gengarSludgeBomb'
-import gengarsb from '../data/gengar/gengarShadowBall'
+import gengarfb from '../../data/gengar/gengarFocusBlast'
+import gengarsgb from '../../data/gengar/gengarSludgeBomb'
+import gengarsb from '../../data/gengar/gengarShadowBall'
 
 import GengarFocusBlastList from './GengarFocusBlastList';
 import GengarSludgeBombList from './GengarSludgeBombList';

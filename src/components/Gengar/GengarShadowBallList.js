@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import Pokemon from './Pokemon';
-import Table from './Table/Table';
-import TableHeader from './TableHeader'
-import TableFooter from './TableFooter'
+import Pokemon from '../Pokemon';
+import Table from '../Table/Table';
+import TableHeader from '../TableHeader'
+import TableFooter from '../TableFooter'
 
-class GengarSludgeBombList extends Component {
+class GengarShadowBallList extends Component {
 
   render() {
 
-    const { gengarsgb } = this.props;
+    const { gengarsb } = this.props;
 
-    const GengarSludgeBombList = gengarsgb.map(pokemon => {
+    const GengarShadowBallList = gengarsb.map(pokemon => {
       return (
         <Pokemon
           key={pokemon.id}
@@ -26,7 +26,7 @@ class GengarSludgeBombList extends Component {
 
     return (
       <div>
-        <Table heading={"Sludge Bomb"}>
+        <Table heading={"Shadow Ball"}>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -40,7 +40,7 @@ class GengarSludgeBombList extends Component {
           link
         </TableFooter>
         <tbody>
-          {GengarSludgeBombList}
+          {GengarShadowBallList}
         </tbody>
         </Table>
       </div>
@@ -50,4 +50,4 @@ class GengarSludgeBombList extends Component {
 
 }
 
-export default GengarSludgeBombList;
+export default GengarShadowBallList;

@@ -20,14 +20,7 @@ import FastestList from './components/FastestList';
 import OneList from './components/OneList';
 
 import Home from './components/Home';
-import Gengar from './components/Gengar';
-// import Routes from './routes';
-
-import gengarfb from './data/gengar/gengarFocusBlast'
-
-import GengarFocusBlastList from './components/GengarFocusBlastList';
-import GengarSludgeBombList from './components/GengarSludgeBombList';
-import GengarShadowBallList from './components/GengarShadowBallList';
+import Gengar from './components/Gengar/Gengar';
 
 import './App.css';
 
@@ -45,22 +38,10 @@ class App extends Component {
       <Router>
         <div className="App">
           <Header tagline="Pokemon Go solo raid stuff"/>
-          <Route exact path ='/' component={Home} />
-          <Route exact path ='/gengar' component={Gengar} />
-
           <SiteNav />
           <SubNav />
-
-          <MvpList mvp={this.props.mvp} />
-          <FastestList fastest={this.props.fastest} />
-          <OneList one={this.props.one} />
-
-          {/*
-          <GengarFocusBlastList gengarfb={this.props.gengarfb} />
-          <GengarSludgeBombList gengarsgb={this.props.gengarsgb} />
-          <GengarShadowBallList gengarsb={this.props.gengarsb} />
-          */}
-
+          <Route exact path ='/' component={Home} />
+          <Route exact path ='/gengar' component={Gengar} />
         </div>
       </Router>
     );
