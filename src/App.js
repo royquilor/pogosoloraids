@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 
 import Header from './components/Header/Header';
@@ -11,7 +10,13 @@ import SiteNav from './components/SiteNav/SiteNav';
 import SubNav from './components/SubNav/SubNav';
 
 import Home from './components/Home/Home';
+import Alakazam from './components/Alakazam/Alakazam';
 import Gengar from './components/Gengar/Gengar';
+import Machamp from './components/Machamp/Machamp';
+import Ninetales from './components/Ninetales/Ninetales';
+import Omastar from './components/Omastar/Omastar';
+import Porygon from './components/Porygon/Porygon';
+import Scyther from './components/Scyther/Scyther';
 
 import './App.css';
 
@@ -30,9 +35,14 @@ class App extends Component {
         <div className="App">
           <Header tagline="Pokemon Go solo raid stuff"/>
           <SiteNav />
-          <SubNav />
           <Route exact path ='/' component={Home} />
+          <Route exact path ='/alakazam' component={Alakazam} />
           <Route exact path ='/gengar' component={Gengar} />
+          <Route exact path ='/machamp' component={Machamp} />
+          <Route exact path ='/ninetales' component={Ninetales} />
+          <Route exact path ='/omastar' component={Omastar} />
+          <Route exact path ='/porygon' component={Porygon} />
+          <Route exact path ='/scyther' component={Scyther} />
         </div>
       </Router>
     );

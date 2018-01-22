@@ -10,12 +10,12 @@ table,
 a,
 input {
   font-family: courier, 'Anonymous Pro', 'Space Mono', monospace;
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 
 h1,
 h2 {
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 
 h1 {
@@ -83,4 +83,14 @@ td:empty {
 
 .water {
   color: #0074D9;
+}
+
+.f6 {
+  font-size: .75rem;
+}
+
+@media screen and (min-width: 30em) {
+  .f6 {
+    font-size: .875rem;
+  }
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import mvp from '../../data/mvp'
-import fastest from '../../data/fastest'
-import one from '../../data/one'
+import mvp from '../../data/home/mvp'
+import fastest from '../../data/home/fastest'
+import one from '../../data/home/one'
 
 import MvpList from './MvpList';
 import FastestList from './FastestList';
@@ -14,6 +14,7 @@ class Home extends Component {
 
     return (
       <div className="pa3">
+        <h2>Home</h2>
         <MvpList mvp={mvp} />
         <FastestList fastest={fastest} />
         <OneList one={one} />

@@ -22,7 +22,7 @@ class MvpList extends Component {
           <tr>
             <TableHeader>Pokemon</TableHeader>
             <TableHeader>Moveset</TableHeader>
-            <TableHeader>Raidboss</TableHeader>
+            <TableHeader>Raid Boss</TableHeader>
           </tr>
         </thead>
         <tbody>

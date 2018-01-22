@@ -16,12 +16,12 @@ class OneList extends Component {
           raidboss={pokemon.raidboss}
           bossmoveset={pokemon.bossmoveset}
           trainer={pokemon.trainer}
-          link={pokemon.link}
           classname={pokemon.classname}
           moveset={pokemon.moveset}
           name={pokemon.name}
           level={pokemon.level}
-          cp={pokemon.cp}/>
+          cp={pokemon.cp}
+          link={pokemon.link}/>
       )
     })
 
@@ -33,11 +33,11 @@ class OneList extends Component {
             <TableHeader>Raidboss</TableHeader>
             <TableHeader>Moveset</TableHeader>
             <TableHeader>Trainer</TableHeader>
-            <TableHeader>Link</TableHeader>
             <TableHeader>Pokemon</TableHeader>
             <TableHeader>Moveset</TableHeader>
             <TableHeader>Level</TableHeader>
             <TableHeader>CP</TableHeader>
+            <TableHeader>Link</TableHeader>
           </tr>
         </thead>
         <tbody>
