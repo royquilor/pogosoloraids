@@ -26,7 +26,10 @@ class MachampCloseCombatList extends Component {
 
     return (
       <div>
-        <Table heading={"Close Combat"}>
+        <h3>
+          <span class="fighting">Close Combat</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class MachampCloseCombatList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          link
-        </TableFooter>
         <tbody>
           {MachampCloseCombatList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
       </div>
     );
 

@@ -26,7 +26,10 @@ class PorygonZapCannonList extends Component {
 
     return (
       <div>
-        <Table heading={"Zap Cannon"}>
+        <h3>
+          <span class="electric">Zap Cannon</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class PorygonZapCannonList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          <a href="https://youtu.be/bZFBXEX4aDk">link updated</a>
-        </TableFooter>
         <tbody>
           {PorygonZapCannonList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://youtu.be/bZFBXEX4aDk">link updated</a>
       </div>
     );
 

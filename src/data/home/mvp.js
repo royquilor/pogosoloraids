@@ -4,42 +4,42 @@ export default [
     name: 'Espeon',
     moveset: 'Confusion, Future Sight',
     raidboss: 'Machamp, Gengar',
-    classname:'psychic'
+    classname:''
   },{
     id: 1,
     name: 'Alakazam',
     moveset: 'Confusion, Future Sight',
     raidboss: 'Machamp, Gengar',
-    classname:'psychic'
+    classname:''
   },{
     id: 2,
     name: 'Gengar',
     moveset: 'Hex, Shadow Ball',
     raidboss: 'Machamp, Gengar, Alakazam',
-    classname:'ghostpoison'
+    classname:''
   },{
     id: 3,
     name: 'Tyranitar',
     moveset: 'Bite, Crunch',
     raidboss: 'Alakazam',
-    classname:'rockdark'
+    classname:''
   },{
     id: 4,
     name: 'Golem',
     moveset: 'Rock Throw, Stone Edge',
     raidboss: 'Scyther, Ninetails',
-    classname:'rockground'
+    classname:''
   },{
     id: 5,
     name: 'Exeguttor',
     moveset: 'Bullet Seed, Solar Beam',
     raidboss: 'Omastar',
-    classname:'grasspsychic'
+    classname:''
   },{
     id: 6,
     name: 'Machamp',
     moveset: 'Counter, Dynamic Punch',
     raidboss: 'Porygon, Cloyster',
-    classname:'fighting'
+    classname:''
   }
 ]

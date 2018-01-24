@@ -26,7 +26,10 @@ class AlakazamConfusionFocusBlastList extends Component {
 
     return (
       <div>
-        <Table heading={"Confusion / Focus Blast"}>
+        <h3>
+          <span class="psychic">Confusion</span> &ndash; <span class="fighting">Focus Blast</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class AlakazamConfusionFocusBlastList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          <a href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
-        </TableFooter>
         <tbody>
           {AlakazamConfusionFocusBlastList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
       </div>
     );
 

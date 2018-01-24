@@ -20,7 +20,7 @@ class FastestList extends Component {
         <Table heading={"Fastest"}>
         <thead>
           <tr>
-            <TableHeader>Raidboss</TableHeader>
+            <TableHeader>Raid Boss</TableHeader>
             <TableHeader>Trainer</TableHeader>
             <TableHeader>Time Left</TableHeader>
             <TableHeader>Link</TableHeader>

@@ -6,7 +6,7 @@ export default [
     iv: 93,
     cp: 2705,
     moveset: 'Counter, Close Combat',
-    classname:'fighting'
+    classname:''
   },{
     id: 1,
     name: 'Machamp',
@@ -14,6 +14,6 @@ export default [
     iv: 93,
     cp: 2518,
     moveset: 'Counter, Close Combat',
-    classname:'fighting'
+    classname:''
   }
 ]

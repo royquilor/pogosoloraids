@@ -6,7 +6,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Rock Throw, Stone Edge',
-    classname:'rock'
+    classname:''
   },{
     id: 1,
     name: 'Golem',
@@ -14,7 +14,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Rock Throw, Stone Edge',
-    classname:'rock'
+    classname:''
   },{
     id: 2,
     name: 'Golem',
@@ -22,6 +22,6 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Rock Throw, Stone Edge',
-    classname:'rock'
+    classname:''
   }
 ]

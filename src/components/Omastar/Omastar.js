@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 
 import omastarhp from '../../data/omastar/omastarHydroPump'
 
@@ -9,10 +10,12 @@ class Omastar extends Component {
   render() {
 
     return (
+      <BodyClassName className="omastar">
       <div className="pa3">
-        <h2>Omastar</h2>
+        <h2 className="water">Omastar</h2>
         <OmastarHydroPumpList omastarhp={omastarhp} />
       </div>
+      </BodyClassName>
     );
 
   }

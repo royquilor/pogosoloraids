@@ -26,7 +26,10 @@ class NinetalesHeatwaveList extends Component {
 
     return (
       <div>
-        <Table heading={"Heatwave"}>
+        <h3>
+          <span class="fire">Heatwave</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class NinetalesHeatwaveList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          <a href="https://youtu.be/bZFBXEX4aDk">link updated</a>
-        </TableFooter>
         <tbody>
           {NinetalesHeatwaveList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://youtu.be/bZFBXEX4aDk">link updated</a>
       </div>
     );
 

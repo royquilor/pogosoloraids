@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 
 import machampcc from '../../data/machamp/machampCloseCombat'
 import machampdp from '../../data/machamp/machampDynamicPunch'
@@ -13,12 +14,14 @@ class Machamp extends Component {
   render() {
 
     return (
-      <div className="pa3">
-        <h2>Machamp</h2>
-        <MachampCloseCombatList machampcc={machampcc} />
-        <MachampDynamicPunchList machampdp={machampdp} />
-        <MachampHeavySlamList machamphs={machamphs} />
-      </div>
+      <BodyClassName className="machamp">
+        <div className="pa3">
+          <h2 className="fighting">Machamp</h2>
+          <MachampCloseCombatList machampcc={machampcc} />
+          <MachampDynamicPunchList machampdp={machampdp} />
+          <MachampHeavySlamList machamphs={machamphs} />
+        </div>
+      </BodyClassName>
     );
 
   }

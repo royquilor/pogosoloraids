@@ -26,7 +26,10 @@ class OmastarHydroPumpList extends Component {
 
     return (
       <div>
-        <Table heading={"Hydro Pump"}>
+        <h3>
+          <span class="water">Hydro Pump</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class OmastarHydroPumpList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          <a href="https://youtu.be/bZFBXEX4aDk">link updated</a>
-        </TableFooter>
         <tbody>
           {OmastarHydroPumpList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://youtu.be/bZFBXEX4aDk">link updated</a>
       </div>
     );
 

@@ -6,7 +6,7 @@ export default [
     iv: 87,
     cp: 2250,
     moveset: 'Shadow Claw (legacy), Shadow Ball',
-    classname:'ghost'
+    classname:''
   },{
     id: 1,
     name: 'Gengar',
@@ -14,7 +14,7 @@ export default [
     iv: 76,
     cp: 2183,
     moveset: 'Sucker Punch, Shadow Ball',
-    classname:'ghost'
+    classname:''
   },{
     id: 2,
     name: 'Tyranitar',
@@ -22,7 +22,7 @@ export default [
     iv: 96,
     cp: 3200,
     moveset: 'Bite, Crunch',
-    classname:'dark'
+    classname:''
   },{
     id: 3,
     name: 'Tyranitar',
@@ -30,7 +30,7 @@ export default [
     iv: 91,
     cp: 3196,
     moveset: 'Bite, Crunch',
-    classname:'dark'
+    classname:''
   },{
     id: 4,
     name: 'Tyranitar',
@@ -38,6 +38,6 @@ export default [
     iv: 84,
     cp: 3147,
     moveset: 'Bite, Crunch',
-    classname:'dark'
+    classname:''
   }
 ]

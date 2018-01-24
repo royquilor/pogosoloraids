@@ -6,7 +6,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Waterfall, Hydropump',
-    classname:'water'
+    classname:''
   },{
     id: 1,
     name: 'Gyarados',
@@ -14,7 +14,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Waterfall, Hydropump',
-    classname:'water'
+    classname:''
   },{
     id: 2,
     name: 'Gyarados',
@@ -22,6 +22,6 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Waterfall, Hydropump',
-    classname:'water'
+    classname:''
   }
 ]

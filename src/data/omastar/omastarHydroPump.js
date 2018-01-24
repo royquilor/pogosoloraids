@@ -6,7 +6,7 @@ export default [
     iv: 84,
     cp: 1902,
     moveset: 'Razor Leaf, Solar Beam',
-    classname:'Grass'
+    classname:''
   },{
     id: 1,
     name: 'Sceptile',
@@ -14,7 +14,7 @@ export default [
     iv: 89,
     cp: 2177,
     moveset: 'Bullet Seed, Leaf Blade',
-    classname:'Grass'
+    classname:''
   },{
     id: 2,
     name: 'Exeguttor',
@@ -22,7 +22,7 @@ export default [
     iv: 73,
     cp: 2421,
     moveset: 'Bullet Seed, Solar Beam',
-    classname:'Grass'
+    classname:''
   },{
     id: 3,
     name: 'Venusaur',
@@ -30,6 +30,6 @@ export default [
     iv: 89,
     cp: 2103,
     moveset: 'Razor Leaf, Petal Blizzard',
-    classname:'Grass'
+    classname:''
   }
 ]

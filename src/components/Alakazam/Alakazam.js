@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 
 import alakazamcfb from '../../data/alakazam/alakazamConfusionFocusBlast'
 import alakazamcfs from '../../data/alakazam/alakazamConfusionFutureSight'
@@ -19,8 +20,9 @@ class Alakazam extends Component {
   render() {
 
     return (
+      <BodyClassName className="alakazam">
       <div className="pa3">
-        <h2>Alakazam</h2>
+        <h2 className="psychic">Alakazam</h2>
         <AlakazamConfusionFocusBlastList alakazamcfb={alakazamcfb} />
         <AlakazamConfusionFutureSightList alakazamcfs={alakazamcfs} />
         <AlakazamConfusionShadowBallList alakazamcsb={alakazamcsb} />
@@ -28,6 +30,7 @@ class Alakazam extends Component {
         <AlakazamPsychoCutFutureSightList alakazampcfs={alakazampcfs} />
         <AlakazamPsychoCutShadowBallList alakazampcsb={alakazampcsb} />
       </div>
+      </BodyClassName>
     );
 
   }

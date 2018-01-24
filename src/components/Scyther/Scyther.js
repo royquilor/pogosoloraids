@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 
 import scytheraa from '../../data/scyther/scytherAerialAce'
 
@@ -9,10 +10,12 @@ class Scyther extends Component {
   render() {
 
     return (
+      <BodyClassName className="scyther">
       <div className="pa3">
-        <h2>Scyther</h2>
+        <h2 className="bug">Scyther</h2>
         <ScytherAerialAceList scytheraa={scytheraa} />
       </div>
+      </BodyClassName>
     );
 
   }

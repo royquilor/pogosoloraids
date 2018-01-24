@@ -6,7 +6,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Confusion, Future Sight',
-    classname:'psychic'
+    classname:''
   },{
     id: 1,
     name: 'Alakazam',
@@ -14,7 +14,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Confusion, Future Sight',
-    classname:'psychic'
+    classname:''
   },{
     id: 2,
     name: 'Gengar',
@@ -22,7 +22,7 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Hex, Shadow Ball',
-    classname:'ghostpoison'
+    classname:''
   },{
     id: 3,
     name: 'Gengar',
@@ -30,7 +30,7 @@ export default [
     iv: 98,
     cp: 2203,
     moveset: 'Hex, Shadow Ball',
-    classname:'ghostpoison'
+    classname:''
   },{
     id: 4,
     name: 'Golem',
@@ -38,7 +38,7 @@ export default [
     iv: 98,
     cp: 2495,
     moveset: 'Mud Slap, Earthquake',
-    classname:'rockground'
+    classname:''
   },{
     id: 5,
     name: 'Espeon',
@@ -46,6 +46,6 @@ export default [
     iv: 98,
     cp: 2650,
     moveset: 'Confusion, Future Sight',
-    classname:'psychic'
+    classname:''
   }
 ]

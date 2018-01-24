@@ -26,7 +26,10 @@ class AlakazamConfusionShadowBallList extends Component {
 
     return (
       <div>
-        <Table heading={"Confusion / Shadow Ball"}>
+        <h3>
+          <span class="psychic">Confusion</span> &ndash; <span class="ghost">ShadowBall</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class AlakazamConfusionShadowBallList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          link
-        </TableFooter>
         <tbody>
           {AlakazamConfusionShadowBallList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
       </div>
     );
 

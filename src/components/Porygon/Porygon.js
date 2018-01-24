@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 
 import porygonzc from '../../data/porygon/porygonZapCannon'
 
@@ -9,10 +10,12 @@ class Porygon extends Component {
   render() {
 
     return (
+      <BodyClassName className="porygon">
       <div className="pa3">
-        <h2>Porygon</h2>
+        <h2 className="normal">Porygon</h2>
         <PorygonZapCannonList porygonzc={porygonzc} />
       </div>
+      </BodyClassName>
     );
 
   }

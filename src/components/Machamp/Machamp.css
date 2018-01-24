@@ -1,0 +1,13 @@
+.machamp {
+  color: #FF4136;
+}
+
+.machamp h3,
+.machamp table {
+  color: #333;
+}
+
+.machamp h2,
+.machamp .active {
+  color: currentColor;
+}

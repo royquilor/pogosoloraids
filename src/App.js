@@ -33,8 +33,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header tagline="Pokemon Go solo raid stuff"/>
-          <SiteNav />
+          <Header tagline="Pokemon Go Solo Raid Stuff">
+            <SiteNav />
+          </Header>
           <Route exact path ='/' component={Home} />
           <Route exact path ='/alakazam' component={Alakazam} />
           <Route exact path ='/gengar' component={Gengar} />

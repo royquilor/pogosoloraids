@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 
 import gengarfb from '../../data/gengar/gengarFocusBlast'
 import gengarsgb from '../../data/gengar/gengarSludgeBomb'
@@ -13,12 +14,14 @@ class Gengar extends Component {
   render() {
 
     return (
+      <BodyClassName className="gengar">
       <div className="pa3">
-        <h2>Gengar</h2>
+        <h2 className="ghostpoison">Gengar</h2>
         <GengarFocusBlastList gengarfb={gengarfb} />
         <GengarSludgeBombList gengarsgb={gengarsgb} />
         <GengarShadowBallList gengarsb={gengarsb} />
       </div>
+      </BodyClassName>
     );
 
   }

@@ -14,12 +14,18 @@ input {
 }
 
 h1,
-h2 {
+h2,
+h3,
+th {
   /* font-family: 'Roboto Mono', monospace; */
+
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 0;
 }
 
 h2 {
@@ -28,8 +34,9 @@ h2 {
 }
 
 h3 {
-  font-size: .875rem;
-  margin-bottom: 2rem;
+  /* font-size: .875rem; */
+  margin-bottom: 1rem;
+  font-size: 15px;
 }
 
 a {
@@ -39,7 +46,7 @@ a {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  margin-bottom: 3rem;
+  margin-bottom: .5rem;
 }
 
 th:empty,
@@ -51,12 +58,20 @@ td:empty {
   color: #3D9970;
 }
 
+.electric {
+  color: #FFDC00;
+}
+
 .fighting {
   color: #FF4136;
 }
 
 .fire {
   color: #FF851B;
+}
+
+.flying {
+  color: #7FDBFF;
 }
 
 .ghost {
@@ -70,11 +85,12 @@ td:empty {
 
 .normal {
   color: #AAAAAA;
+  font-weight: 600;
 }
 
 .poison,
 .ghostpoison {
-  color: #85144b;
+  color: #B10DC9;
 }
 
 .psychic {

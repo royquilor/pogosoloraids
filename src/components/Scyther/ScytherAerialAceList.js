@@ -26,7 +26,10 @@ class ScytherAerialAceList extends Component {
 
     return (
       <div>
-        <Table heading={"Aerial Ace"}>
+        <h3>
+          <span class="flying">Aerial Ace</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class ScytherAerialAceList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          <a href="https://youtu.be/bZFBXEX4aDk">link updated</a>
-        </TableFooter>
         <tbody>
           {ScytherAerialAceList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://youtu.be/bZFBXEX4aDk">link updated</a>
       </div>
     );
 

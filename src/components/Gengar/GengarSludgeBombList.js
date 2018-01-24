@@ -26,7 +26,10 @@ class GengarSludgeBombList extends Component {
 
     return (
       <div>
-        <Table heading={"Sludge Bomb"}>
+        <h3>
+          <span class="poison">Sludge Bomb</span>
+        </h3>
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
@@ -36,13 +39,11 @@ class GengarSludgeBombList extends Component {
             <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
-        <TableFooter>
-          link
-        </TableFooter>
         <tbody>
           {GengarSludgeBombList}
         </tbody>
         </Table>
+        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
       </div>
     );
 
