@@ -1,51 +1,43 @@
 export default [
   {
     id: 0,
-    name: 'Espeon',
+    name: 'Tyranitar',
     level: 30,
-    iv: 98,
-    cp: 2650,
-    moveset: 'Confusion, Future Sight',
+    iv: 96,
+    cp: 3548,
+    moveset: 'Bite, Crunch',
     classname:''
   },{
     id: 1,
-    name: 'Alakazam',
+    name: 'Gengar',
     level: 30,
     iv: 98,
     cp: 2650,
-    moveset: 'Confusion, Future Sight',
+    moveset: 'Shadow Claw (legacy), Shadow Ball',
     classname:''
   },{
     id: 2,
-    name: 'Gengar',
+    name: 'Tyranitar',
     level: 30.5,
     iv: 98,
     cp: 2650,
-    moveset: 'Hex, Shadow Ball',
+    moveset: 'Bite, Crunch',
     classname:''
   },{
     id: 3,
-    name: 'Gengar',
+    name: 'Tyranitar',
     level: 30,
     iv: 98,
     cp: 2203,
-    moveset: 'Hex, Shadow Ball',
+    moveset: 'Bite, Crunch',
     classname:''
   },{
     id: 4,
-    name: 'Golem',
+    name: 'Tyranitar',
     level: 29,
     iv: 98,
     cp: 2495,
-    moveset: 'Mud Slap, Earthquake',
-    classname:''
-  },{
-    id: 5,
-    name: 'Espeon',
-    level: 30.5,
-    iv: 98,
-    cp: 2650,
-    moveset: 'Confusion, Future Sight',
+    moveset: 'Bite, Crunch',
     classname:''
   }
 ]

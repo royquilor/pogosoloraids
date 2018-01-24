@@ -43,7 +43,7 @@ class AlakazamConfusionFutureSightList extends Component {
           {AlakazamConfusionFutureSightList}
         </tbody>
         </Table>
-        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
+        <a className="db mb4" href="https://www.youtube.com/watch?v=1VbY2YinRE8">youtube - pokecuno</a>
       </div>
     );
 

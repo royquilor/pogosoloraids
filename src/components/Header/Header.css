@@ -10,15 +10,15 @@ header {
 .alakazam header {
 background-color: #F012BE;
 background: #bc4e9c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #bc4e9c, #f80759);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #bc4e9c, #f80759); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #B10DC9, #F012BE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #B10DC9, #F012BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .machamp header {
 background-color: #FF4136;
 background: #f85032;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #e73827, #FF4136);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #e73827, #FF4136); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .gengar header {
@@ -29,10 +29,10 @@ background: linear-gradient(to bottom, #85144b, #B10DC9); /* W3C, IE 10+/ Edge, 
 }
 
 .ninetales header {
-background-color: #FF851B;
+background-color: #FF4136;
 background: #cb2d3e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #cb2d3e, #ef473a);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #cb2d3e, #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #FF4136, #FF851B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FF4136, #FF851B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .omastar header {

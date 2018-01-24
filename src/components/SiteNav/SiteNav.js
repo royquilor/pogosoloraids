@@ -11,8 +11,8 @@ const SiteNav = (props) => {
       <div className="nowrap overflow-x-auto">
         <NavLink to="/" exact={true} activeClassName="active">Home</NavLink>
         <NavLink to="/Alakazam" activeClassName="active">Alakazam</NavLink>
-        <NavLink to="/Machamp" activeClassName="active">Machamp</NavLink>
         <NavLink to="/Gengar" activeClassName="active">Gengar</NavLink>
+        <NavLink to="/Machamp" activeClassName="active">Machamp</NavLink>
         <NavLink to="/Ninetales" activeClassName="active">Ninetales</NavLink>
         <NavLink to="/Omastar" activeClassName="active">Omastar</NavLink>
         <NavLink to="/Porygon" activeClassName="active">Porygon</NavLink>
