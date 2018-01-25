@@ -26,7 +26,7 @@ class AlakazamConfusionShadowBallList extends Component {
     return (
       <div>
         <h3>
-          <span class="psychic">Confusion</span> &ndash; <span class="ghost">ShadowBall</span>
+          <span class="psychic">Confusion</span> &ndash; <span class="ghost">Shadow Ball</span>
         </h3>
         <Table>
         <thead>

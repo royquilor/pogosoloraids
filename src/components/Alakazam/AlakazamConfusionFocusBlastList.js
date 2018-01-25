@@ -25,8 +25,8 @@ class AlakazamConfusionFocusBlastList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="psychic">Confusion</span> &ndash; <span class="fighting">Focus Blast</span>
+        <h3 className="f5 f3-ns fw6">
+          <span className="psychic">Confusion</span> &ndash; <span className="fighting">Focus Blast</span>
         </h3>
         <Table>
         <thead>

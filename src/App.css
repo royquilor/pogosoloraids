@@ -28,14 +28,13 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
   margin-bottom: 2rem;
 }
 
 h3 {
   /* font-size: .875rem; */
   margin-bottom: 1rem;
-  font-size: 15px;
+
 }
 
 a {
@@ -108,7 +107,6 @@ td:empty {
   transition: all .2s ease-in-out;
   text-align: center;
   xborder: 1px solid #ddd;
-  padding: 1rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;

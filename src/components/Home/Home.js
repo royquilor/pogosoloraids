@@ -14,13 +14,13 @@ class Home extends Component {
 
     return (
       <div className="pa3 black-70">
-        <div className="w-100 cf">
-          <div className="fl w-50">
+        <div className="w-100 cf mw9 tc-m">
+          <div className="fl-l w-50-l">
             <h1 className="f4 fw6 f1-ns lh-title measure">Solo level 3 raids</h1>
-            <p className="f5 f4-ns lh-copy measure mb5 db">Pokemon go lists gathered by a community. You don't have to spend all your stardust.</p>
+            <p className="f5 f4-ns lh-copy measure mb5-ns dib-m">Pokemon go stuff gathered by a community. You don't have to spend all your stardust.</p>
           </div>
-          <div className="fl w-50 tc pt5">
-            <a className="dib submit" href="">Submit a Raid</a>
+          <div className="fl-l w-50-l tl tc-ns pt5-l mb4">
+            <a className="dib submit pv2 ph3 pv3-ns ph4-ns " href="">Submit a Raid</a>
           </div>
         </div>
         <MvpList mvp={mvp} />
