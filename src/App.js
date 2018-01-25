@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header tagline="Pokemon Go Solo Raid Stuff">
+          <Header tagline="">
             <SiteNav />
           </Header>
           <Route exact path ='/' component={Home} />

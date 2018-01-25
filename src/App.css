@@ -1,6 +1,6 @@
 body {
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
+/* text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased; */
 }
 
 body,
@@ -9,8 +9,10 @@ h3,
 table,
 a,
 input {
-  font-family: courier, 'Anonymous Pro', 'Space Mono', monospace;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  /* font-family: courier, 'Anonymous Pro', 'Space Mono', monospace; */
   /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: ArialRoundedMTBold; */
 }
 
 h1,
@@ -22,10 +24,7 @@ th {
 }
 
 h1 {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  margin: 0;
+
 }
 
 h2 {
@@ -101,12 +100,16 @@ td:empty {
   color: #0074D9;
 }
 
-.f6 {
-  font-size: .75rem;
-}
-
-@media screen and (min-width: 30em) {
-  .f6 {
-    font-size: .875rem;
-  }
+.submit {
+  color: #fff;
+  background: linear-gradient(to bottom, #24CCAA, #A2DB95);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  transition: all .2s ease-in-out;
+  text-align: center;
+  xborder: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
 }

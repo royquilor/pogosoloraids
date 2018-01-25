@@ -5,7 +5,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Gengar from '././components/Gengar/Gengar';
 
 const Routes = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/p">
     <Switch>
       <Route exact path='/' exactly component={Home} />
       <Route exact path='/gengar' component={Gengar} />

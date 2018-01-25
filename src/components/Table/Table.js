@@ -7,9 +7,11 @@ const Table = (props) => {
       <h3>
         {props.heading}
       </h3>
-      <table className="f6 w-100" cellSpacing="0">
-        {props.children}
-      </table>
+      <div className="overflow-auto">
+        <table className="f6 w-100" cellSpacing="0">
+          {props.children}
+        </table>
+      </div>
     </div>
   )
 }

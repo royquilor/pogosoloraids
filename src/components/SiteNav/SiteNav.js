@@ -7,7 +7,7 @@ import {
 
 const SiteNav = (props) => {
   return (
-    <nav className="nav">
+    <nav className="nav bt bb b--black-10">
       <div className="nowrap overflow-x-auto">
         <NavLink to="/" exact={true} activeClassName="active">Home</NavLink>
         <NavLink to="/Alakazam" activeClassName="active">Alakazam</NavLink>

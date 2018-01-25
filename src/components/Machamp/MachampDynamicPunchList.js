@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
-import TableFooter from '../Table/TableFooter'
 
 class MachampDynamicPunchList extends Component {
 

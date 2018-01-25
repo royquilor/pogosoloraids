@@ -1,21 +1,12 @@
 .nav {
-  padding: 0;
+  padding: 1rem;
 }
 
 nav a {
   margin-right: 1rem;
-  font-size: 13px;
+  text-decoration: none;
+  padding: .5rem 0;
+  display: inline-block;
+  color: rgba(0,0,0,.7);
   font-weight: 600;
-    xline-height: 15px;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    color: #fff;
-    text-decoration: none;
-
-    padding: .5rem 0;
-    display: inline-block;
-}
-
-.active {
-    border-bottom: 3px solid #fff;
 }

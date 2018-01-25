@@ -2,6 +2,7 @@
   "name": "soloed",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://awwesome.com/p/",
   "dependencies": {
     "react": "^16.2.0",
     "react-body-classname": "^1.2.0",
