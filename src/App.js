@@ -33,9 +33,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header tagline="">
-            <SiteNav />
-          </Header>
+          <Header />
+          <SiteNav />
           <Route exact path ='/' component={Home} />
           <Route exact path ='/alakazam' component={Alakazam} />
           <Route exact path ='/gengar' component={Gengar} />
