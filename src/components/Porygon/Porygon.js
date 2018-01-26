@@ -11,8 +11,8 @@ class Porygon extends Component {
 
     return (
       <BodyClassName className="porygon">
-      <div className="pa3">
-        <h2 className="normal">Porygon</h2>
+      <div className="pa3 pt4">
+        <h2 className="f2 fw6 normal">Porygon</h2>
         <PorygonZapCannonList porygonzc={porygonzc} />
       </div>
       </BodyClassName>

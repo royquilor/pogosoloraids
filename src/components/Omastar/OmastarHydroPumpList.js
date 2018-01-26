@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class OmastarHydroPumpList extends Component {
 
@@ -25,9 +26,10 @@ class OmastarHydroPumpList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="water">Hydro Pump</span>
-        </h3>
+        <HeadingMoveset
+          type1="water"
+          fastmove="Hydro Pump"
+          />
         <Table>
         <thead>
           <tr>

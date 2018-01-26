@@ -11,8 +11,8 @@ class Ninetales extends Component {
 
     return (
       <BodyClassName className="ninetales">
-        <div className="pa3">
-          <h2 className="fire">Ninetales</h2>
+        <div className="pa3 pt4">
+          <h2 className="f2 fw6 fire">Ninetales</h2>
           <NinetalesHeatwaveList ninetalesh={ninetalesh} />
         </div>
       </BodyClassName>

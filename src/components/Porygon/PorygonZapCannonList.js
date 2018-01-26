@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class PorygonZapCannonList extends Component {
 
@@ -25,9 +26,10 @@ class PorygonZapCannonList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="electric">Zap Cannon</span>
-        </h3>
+        <HeadingMoveset
+          type1="electric"
+          fastmove="Zap Cannon"
+          />
         <Table>
         <thead>
           <tr>

@@ -15,8 +15,8 @@ class Gengar extends Component {
 
     return (
       <BodyClassName className="gengar">
-      <div className="pa3">
-        <h2 className="ghostpoison">Gengar</h2>
+      <div className="pa3 pt4">
+        <h2 className="f2 fw6 ghost">Gengar</h2>
         <GengarFocusBlastList gengarfb={gengarfb} />
         <GengarSludgeBombList gengarsgb={gengarsgb} />
         <GengarShadowBallList gengarsb={gengarsb} />

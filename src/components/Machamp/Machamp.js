@@ -15,8 +15,8 @@ class Machamp extends Component {
 
     return (
       <BodyClassName className="machamp">
-        <div className="pa3">
-          <h2 className="fighting">Machamp</h2>
+        <div className="pa3 pt4">
+          <h2 className="f2 fw6 fighting">Machamp</h2>
           <MachampCloseCombatList machampcc={machampcc} />
           <MachampDynamicPunchList machampdp={machampdp} />
           <MachampHeavySlamList machamphs={machamphs} />

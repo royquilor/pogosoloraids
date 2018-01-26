@@ -11,8 +11,8 @@ class Scyther extends Component {
 
     return (
       <BodyClassName className="scyther">
-      <div className="pa3">
-        <h2 className="bug">Scyther</h2>
+      <div className="pa3 pt4">
+        <h2 className="f2 fw6 bug">Scyther</h2>
         <ScytherAerialAceList scytheraa={scytheraa} />
       </div>
       </BodyClassName>

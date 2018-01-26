@@ -5,7 +5,6 @@ import {
   Route
 } from 'react-router-dom';
 
-import Header from './components/Header/Header';
 import SiteNav from './components/SiteNav/SiteNav';
 import SubNav from './components/SubNav/SubNav';
 
@@ -33,7 +32,6 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header />
           <SiteNav />
           <Route exact path ='/' component={Home} />
           <Route exact path ='/alakazam' component={Alakazam} />

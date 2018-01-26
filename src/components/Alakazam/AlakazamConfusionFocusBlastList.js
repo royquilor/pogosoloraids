@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import Pokemon from '../Pokemon/Pokemon';
-import Table from '../Table/Table';
+import Pokemon from '../Pokemon/Pokemon'
+import Table from '../Table/Table'
 import TableHeader from '../Table/TableHeader'
+import Avatar from '../Avatar/Avatar'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class AlakazamConfusionFocusBlastList extends Component {
 
@@ -25,9 +27,12 @@ class AlakazamConfusionFocusBlastList extends Component {
 
     return (
       <div>
-        <h3 className="f5 f3-ns fw6">
-          <span className="psychic">Confusion</span> &ndash; <span className="fighting">Focus Blast</span>
-        </h3>
+        <HeadingMoveset
+          type1="psychic"
+          fastmove="Confusion"
+          type2="fighting"
+          chargemove="Focus Blast"
+          />
         <Table>
         <thead>
           <tr>
@@ -42,7 +47,10 @@ class AlakazamConfusionFocusBlastList extends Component {
           {AlakazamConfusionFocusBlastList}
         </tbody>
         </Table>
-        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
+        <Avatar
+          text="reddit source"
+          href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/"
+          />
       </div>
     );
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class ScytherAerialAceList extends Component {
 
@@ -25,9 +26,10 @@ class ScytherAerialAceList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="flying">Aerial Ace</span>
-        </h3>
+        <HeadingMoveset
+          type1="flying"
+          fastmove="Aerial Ace"
+          />
         <Table>
         <thead>
           <tr>

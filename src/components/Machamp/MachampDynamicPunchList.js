@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class MachampDynamicPunchList extends Component {
 
@@ -25,9 +26,10 @@ class MachampDynamicPunchList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="fighting">Dynamic Punch</span>
-        </h3>
+        <HeadingMoveset
+          type1="fighting"
+          fastmove="Dynamic Punch"
+          />
         <Table>
         <thead>
           <tr>

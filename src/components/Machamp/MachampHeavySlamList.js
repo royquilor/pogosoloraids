@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class MachampHeavySlamList extends Component {
 
@@ -25,10 +26,11 @@ class MachampHeavySlamList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="steel">Heavy Slam</span>
-        </h3>
-        <Table >
+        <HeadingMoveset
+          type1="steel"
+          fastmove="Heavy Slam"
+          />
+        <Table>
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>

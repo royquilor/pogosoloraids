@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class GengarSludgeBombList extends Component {
 
@@ -25,9 +26,10 @@ class GengarSludgeBombList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="poison">Sludge Bomb</span>
-        </h3>
+        <HeadingMoveset
+          type1="poison"
+          fastmove="Sludge Bomb"
+          />
         <Table>
         <thead>
           <tr>

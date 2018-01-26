@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class GengarFocusBlastList extends Component {
 
@@ -25,9 +26,10 @@ class GengarFocusBlastList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="fighting">Focus Blast</span>
-        </h3>
+        <HeadingMoveset
+          type1="fighting"
+          fastmove="Focus Blast"
+          />
         <Table>
         <thead>
           <tr>

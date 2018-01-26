@@ -21,7 +21,7 @@ class Alakazam extends Component {
 
     return (
       <BodyClassName className="alakazam">
-      <div className="pa3">
+      <div className="pa3 pt4">
         <h2 className="f2 fw6 psychic">Alakazam</h2>
         <AlakazamConfusionFocusBlastList alakazamcfb={alakazamcfb} />
         <AlakazamConfusionFutureSightList alakazamcfs={alakazamcfs} />

@@ -4,7 +4,7 @@ import './Table.css'
 const Table = (props) => {
   return (
     <div>
-      <h3 className="f5 f3-ns fw6">
+      <h3 className="f5 f4-ns fw6">
         {props.heading}
       </h3>
       <div className="overflow-auto">

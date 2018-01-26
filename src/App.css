@@ -101,13 +101,22 @@ td:empty {
 
 .submit {
   color: #fff;
-  background: linear-gradient(to bottom, #24CCAA, #A2DB95);
+  xbackground: linear-gradient(to bottom, #24CCAA, #A2DB95);
   border-radius: 5px;
-  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  border-radius: 500px;
+  box-shadow: 0 0 0 2px #fff inset;
   transition: all .2s ease-in-out;
   text-align: center;
   xborder: 1px solid #ddd;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.hero {
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FF5F6D, #FFC371);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FF5F6D, #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }

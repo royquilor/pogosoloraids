@@ -5,8 +5,12 @@
 nav a {
   margin-right: 1rem;
   text-decoration: none;
-  padding: .5rem 0;
+  padding: 0;
   display: inline-block;
   color: rgba(0,0,0,.7);
   font-weight: 600;
+}
+
+.home .nav a {
+  color: white;
 }

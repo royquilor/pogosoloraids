@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class AlakazamPsychoCutShadowBallList extends Component {
 
@@ -25,9 +26,12 @@ class AlakazamPsychoCutShadowBallList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="psychic">Psycho Cut</span> &ndash; <span class="ghost">Shadow Ball</span>
-        </h3>
+        <HeadingMoveset
+          type1="psychic"
+          fastmove="Psycho Cut"
+          type2="ghost"
+          chargemove="Shadow Ball"
+          />
         <Table>
         <thead>
           <tr>

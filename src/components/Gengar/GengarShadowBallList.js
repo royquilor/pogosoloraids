@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
+import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
 
 class GengarShadowBallList extends Component {
 
@@ -25,9 +26,10 @@ class GengarShadowBallList extends Component {
 
     return (
       <div>
-        <h3>
-          <span class="ghost">Shadow Ball</span>
-        </h3>
+        <HeadingMoveset
+          type1="ghost"
+          fastmove="Shadow Ball"
+          />
         <Table>
         <thead>
           <tr>
