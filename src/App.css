@@ -104,9 +104,13 @@ td:empty {
 
 .submit {
   color: #fff;
+  font-family: Orbitron;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 1;
   xbackground: linear-gradient(to bottom, #24CCAA, #A2DB95);
   border-radius: 5px;
-  border-radius: 500px;
+  xborder-radius: 500px;
   box-shadow: 0 0 0 2px #fff inset;
   transition: all .2s ease-in-out;
   text-align: center;
