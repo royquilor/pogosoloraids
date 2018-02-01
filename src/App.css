@@ -1,6 +1,6 @@
 body {
-/* text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased; */
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
 }
 
 body,
@@ -13,6 +13,7 @@ input {
   /* font-family: courier, 'Anonymous Pro', 'Space Mono', monospace; */
   /* font-family: 'Roboto Mono', monospace; */
   /* font-family: ArialRoundedMTBold; */
+  /* font-family: league_monoregular; */
 }
 
 h1,
@@ -23,8 +24,10 @@ th {
 
 }
 
-h1 {
-
+h1,
+h2 {
+font-family: Orbitron;
+text-transform: uppercase;
 }
 
 h2 {
@@ -32,8 +35,9 @@ h2 {
 }
 
 h3 {
-  /* font-size: .875rem; */
+  font-size: 1rem;
   margin-bottom: 1rem;
+  font-weight: 400;
 
 }
 
@@ -83,7 +87,6 @@ td:empty {
 
 .normal {
   color: #AAAAAA;
-  font-weight: 600;
 }
 
 .poison,
@@ -109,8 +112,6 @@ td:empty {
   text-align: center;
   xborder: 1px solid #ddd;
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 
 .hero {

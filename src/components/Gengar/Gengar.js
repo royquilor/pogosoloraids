@@ -9,18 +9,20 @@ import GengarFocusBlastList from './GengarFocusBlastList';
 import GengarSludgeBombList from './GengarSludgeBombList';
 import GengarShadowBallList from './GengarShadowBallList';
 
+import Wrap from '../Wrap/Wrap';
+
 class Gengar extends Component {
 
   render() {
 
     return (
       <BodyClassName className="gengar">
-      <div className="pa3 pt4">
+      <Wrap>
         <h2 className="f2 fw6 ghost">Gengar</h2>
         <GengarFocusBlastList gengarfb={gengarfb} />
         <GengarSludgeBombList gengarsgb={gengarsgb} />
         <GengarShadowBallList gengarsb={gengarsb} />
-      </div>
+      </Wrap>
       </BodyClassName>
     );
 

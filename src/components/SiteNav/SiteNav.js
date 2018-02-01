@@ -7,9 +7,9 @@ import {
 
 const SiteNav = (props) => {
   return (
-    <nav className="nav bt bb b--white-20 fixed w-100">
-      <div className="nowrap overflow-x-auto">
-        <NavLink to="/" exact={true} activeClassName="active"><span className="f5 f4-ns fw6">Pokesoloraids</span></NavLink>
+    <nav className="nav">
+      <div className="nowrap overflow-x-auto overflow-y-hidden">
+        <NavLink to="/" exact={true} activeClassName="active">Pokesoloraids</NavLink>
         <NavLink to="/Alakazam" activeClassName="active psychic">Alakazam</NavLink>
         <NavLink to="/Gengar" activeClassName="active ghost">Gengar</NavLink>
         <NavLink to="/Machamp" activeClassName="active fighting">Machamp</NavLink>

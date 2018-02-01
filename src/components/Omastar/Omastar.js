@@ -5,16 +5,18 @@ import omastarhp from '../../data/omastar/omastarHydroPump'
 
 import OmastarHydroPumpList from './OmastarHydroPumpList';
 
+import Wrap from '../Wrap/Wrap';
+
 class Omastar extends Component {
 
   render() {
 
     return (
       <BodyClassName className="omastar">
-      <div className="pa3 pt4">
+      <Wrap>
         <h2 className="f2 fw6 water">Omastar</h2>
         <OmastarHydroPumpList omastarhp={omastarhp} />
-      </div>
+      </Wrap>
       </BodyClassName>
     );
 

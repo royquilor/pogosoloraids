@@ -15,9 +15,9 @@ class AlakazamConfusionFocusBlastList extends Component {
       return (
         <Pokemon
           key={pokemon.id}
+          iv={pokemon.iv}
           name={pokemon.name}
           level={pokemon.level}
-          iv={pokemon.iv}
           cp={pokemon.cp}
           moveset={pokemon.moveset}
           classname={pokemon.classname}
@@ -37,8 +37,8 @@ class AlakazamConfusionFocusBlastList extends Component {
         <thead>
           <tr>
             <TableHeader>Pokemon</TableHeader>
-            <TableHeader>Level</TableHeader>
             <TableHeader>IV</TableHeader>
+            <TableHeader>Level</TableHeader>
             <TableHeader>CP</TableHeader>
             <TableHeader>Moveset</TableHeader>
           </tr>

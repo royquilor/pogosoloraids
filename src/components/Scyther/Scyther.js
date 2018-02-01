@@ -5,16 +5,18 @@ import scytheraa from '../../data/scyther/scytherAerialAce'
 
 import ScytherAerialAceList from './ScytherAerialAceList';
 
+import Wrap from '../Wrap/Wrap';
+
 class Scyther extends Component {
 
   render() {
 
     return (
       <BodyClassName className="scyther">
-      <div className="pa3 pt4">
+      <Wrap>
         <h2 className="f2 fw6 bug">Scyther</h2>
         <ScytherAerialAceList scytheraa={scytheraa} />
-      </div>
+      </Wrap>
       </BodyClassName>
     );
 
