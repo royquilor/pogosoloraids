@@ -19,6 +19,8 @@ class Scyther extends Component {
             pokemon="Scyther"
             regularcp="1408"
             weatherboostcp="1760"
+            likes="Rainy, Windy"
+            counters="Partly Cloudy, Clear/Sunny"
             />
           <Wrap>
             <ScytherAerialAceList scytheraa={scytheraa} />

@@ -23,6 +23,8 @@ class Gengar extends Component {
           pokemon="Gengar"
           regularcp="1496"
           weatherboostcp="1870"
+          likes="Cloudy, Foggy"
+          counters="Windy"
           />
         <Wrap>
           <GengarFocusBlastList gengarfb={gengarfb} />

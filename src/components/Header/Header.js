@@ -3,15 +3,26 @@ import './Header.css'
 
 const Header = (props) => {
   return (
-    <header className="w-100 cf pa3">
-      <h2 className="f3 f2-ns fw6 fl-ns db dib-ns">
-        <span className={props.type}>{props.pokemon}</span>
-      </h2>
-      <div className="db dib-ns fr-ns f3 tr-ns">
-        <span className="db"><small>perfect cp</small> {props.regularcp}</span>
-        <span className="db"><small>weather boost</small> {props.weatherboostcp}</span>
-      </div>
+    <header class="pa3" data-name="slab-stat">
+      <h1 className="f4 f2-ns fw6 mv0">{props.pokemon}</h1>
+      <dl class="dib mr5">
+        <dd class="f6 fw4 ml0">Perfect CP</dd>
+        <dd class="f3 fw6 ml0">{props.regularcp}</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 fw4 ml0">Weather Boost</dd>
+        <dd class="f3 fw6 ml0">{props.weatherboostcp}</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 fw4 ml0">Likes</dd>
+        <dd class="f3 fw6 ml0 ttu">{props.likes}</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 fw4 ml0">Counters Boost</dd>
+        <dd class="f3 fw6 ml0 ttu">{props.counters}</dd>
+      </dl>
     </header>
+
   )
 }
 

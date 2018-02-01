@@ -23,6 +23,8 @@ class Machamp extends Component {
             pokemon="Machamp"
             regularcp="1650"
             weatherboostcp="2063"
+            likes="Cloudy"
+            counters="Windy"
             />
           <Wrap>
             <MachampCloseCombatList machampcc={machampcc} />

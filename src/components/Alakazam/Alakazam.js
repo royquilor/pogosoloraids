@@ -29,6 +29,8 @@ class Alakazam extends Component {
             pokemon="Alakazam"
             regularcp="1649"
             weatherboostcp="2062"
+            likes="Windy"
+            counters="Foggy"
             />
           <Wrap>
           <AlakazamConfusionFocusBlastList alakazamcfb={alakazamcfb} />

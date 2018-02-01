@@ -19,6 +19,8 @@ class Ninetales extends Component {
             pokemon="Ninetales"
             regularcp="1233"
             weatherboostcp="1541"
+            likes="Clear/Sunny"
+            counters="Rain, Partly Cloudy"
             />
           <Wrap>
             <NinetalesHeatwaveList ninetalesh={ninetalesh} />

@@ -19,6 +19,8 @@ class Porygon extends Component {
           pokemon="Porygon"
           regularcp="895"
           weatherboostcp="1120"
+          likes="Partly Cloudy"
+          counters="Windy"
           />
         <Wrap>
           <PorygonZapCannonList porygonzc={porygonzc} />
