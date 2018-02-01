@@ -6,6 +6,7 @@ import ninetalesh from '../../data/ninetales/ninetalesHeatwave'
 import NinetalesHeatwaveList from './NinetalesHeatwaveList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Ninetales extends Component {
 
@@ -13,10 +14,16 @@ class Ninetales extends Component {
 
     return (
       <BodyClassName className="ninetales">
-        <Wrap>
-          <h2 className="f2 fw6 fire">Ninetales</h2>
-          <NinetalesHeatwaveList ninetalesh={ninetalesh} />
-        </Wrap>
+        <div>
+          <Header
+            pokemon="Ninetales"
+            regularcp="1233"
+            weatherboostcp="1541"
+            />
+          <Wrap>
+            <NinetalesHeatwaveList ninetalesh={ninetalesh} />
+          </Wrap>
+        </div>
       </BodyClassName>
     );
 

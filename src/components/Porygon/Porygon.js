@@ -6,6 +6,7 @@ import porygonzc from '../../data/porygon/porygonZapCannon'
 import PorygonZapCannonList from './PorygonZapCannonList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Porygon extends Component {
 
@@ -13,10 +14,16 @@ class Porygon extends Component {
 
     return (
       <BodyClassName className="porygon">
-      <Wrap>
-        <h2 className="f2 fw6 normal">Porygon</h2>
-        <PorygonZapCannonList porygonzc={porygonzc} />
-      </Wrap>
+      <div>
+        <Header
+          pokemon="Porygon"
+          regularcp="895"
+          weatherboostcp="1120"
+          />
+        <Wrap>
+          <PorygonZapCannonList porygonzc={porygonzc} />
+        </Wrap>
+      </div>
       </BodyClassName>
     );
 

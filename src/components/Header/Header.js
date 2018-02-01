@@ -3,9 +3,11 @@ import './Header.css'
 
 const Header = (props) => {
   return (
-    <header className="black-70 w-100 cf">
-      <a className="f5 f4-ns fw6 link black-70 ph3">Pokesoloraids</a>
-      {props.children}
+    <header className="w-100 cf pa3">
+      <h2 className="f2 fw6 fl dib">
+        <span className={props.type}>{props.pokemon}</span>
+      </h2>
+      <span className="dib fr f3">{props.regularcp}/{props.weatherboostcp}<small> cp</small></span>
     </header>
   )
 }

@@ -19,7 +19,7 @@ class Home extends Component {
         <div className="w-100 cf tc-m hero white pt4 pa3">
           <div className="mw9 center tl tc-ns ">
             <div className="tl tc-ns">
-              <h1 className="f4 fw6 f1-ns lh-title mb3">Solo level 3 raids</h1>
+              <h1 className="f4 fw6 f1-ns lh-title mb3 mt0">Solo level 3 raids</h1>
               <p className="f5 f5-ns lh-copy measure center mb4 db">Pokemon go stuff gathered by a community. <br/>You don't have to spend all your stardust.</p>
             </div>
             <div className="tl tc-ns mb4">

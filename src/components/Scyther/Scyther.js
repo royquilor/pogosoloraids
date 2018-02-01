@@ -6,6 +6,7 @@ import scytheraa from '../../data/scyther/scytherAerialAce'
 import ScytherAerialAceList from './ScytherAerialAceList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Scyther extends Component {
 
@@ -13,10 +14,16 @@ class Scyther extends Component {
 
     return (
       <BodyClassName className="scyther">
-      <Wrap>
-        <h2 className="f2 fw6 bug">Scyther</h2>
-        <ScytherAerialAceList scytheraa={scytheraa} />
-      </Wrap>
+        <div>
+          <Header
+            pokemon="Scyther"
+            regularcp="1408"
+            weatherboostcp="1760"
+            />
+          <Wrap>
+            <ScytherAerialAceList scytheraa={scytheraa} />
+          </Wrap>
+        </div>
       </BodyClassName>
     );
 

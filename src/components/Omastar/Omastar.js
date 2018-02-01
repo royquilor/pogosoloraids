@@ -6,6 +6,7 @@ import omastarhp from '../../data/omastar/omastarHydroPump'
 import OmastarHydroPumpList from './OmastarHydroPumpList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Omastar extends Component {
 
@@ -13,10 +14,16 @@ class Omastar extends Component {
 
     return (
       <BodyClassName className="omastar">
-      <Wrap>
-        <h2 className="f2 fw6 water">Omastar</h2>
-        <OmastarHydroPumpList omastarhp={omastarhp} />
-      </Wrap>
+      <div>
+        <Header
+          pokemon="Omastar"
+          regularcp="1534"
+          weatherboostcp="1918"
+          />
+        <Wrap>
+          <OmastarHydroPumpList omastarhp={omastarhp} />
+        </Wrap>
+      </div>
       </BodyClassName>
     );
 

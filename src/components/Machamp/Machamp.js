@@ -10,6 +10,7 @@ import MachampDynamicPunchList from './MachampDynamicPunchList';
 import MachampHeavySlamList from './MachampHeavySlamList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Machamp extends Component {
 
@@ -17,12 +18,18 @@ class Machamp extends Component {
 
     return (
       <BodyClassName className="machamp">
-        <Wrap>
-          <h2 className="f2 fw6 fighting">Machamp</h2>
-          <MachampCloseCombatList machampcc={machampcc} />
-          <MachampDynamicPunchList machampdp={machampdp} />
-          <MachampHeavySlamList machamphs={machamphs} />
-        </Wrap>
+        <div>
+          <Header
+            pokemon="Machamp"
+            regularcp="1650"
+            weatherboostcp="2063"
+            />
+          <Wrap>
+            <MachampCloseCombatList machampcc={machampcc} />
+            <MachampDynamicPunchList machampdp={machampdp} />
+            <MachampHeavySlamList machamphs={machamphs} />
+          </Wrap>
+        </div>
       </BodyClassName>
     );
 

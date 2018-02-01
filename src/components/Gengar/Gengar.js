@@ -10,6 +10,7 @@ import GengarSludgeBombList from './GengarSludgeBombList';
 import GengarShadowBallList from './GengarShadowBallList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Gengar extends Component {
 
@@ -17,12 +18,18 @@ class Gengar extends Component {
 
     return (
       <BodyClassName className="gengar">
-      <Wrap>
-        <h2 className="f2 fw6 ghost">Gengar</h2>
-        <GengarFocusBlastList gengarfb={gengarfb} />
-        <GengarSludgeBombList gengarsgb={gengarsgb} />
-        <GengarShadowBallList gengarsb={gengarsb} />
-      </Wrap>
+      <div>
+        <Header
+          pokemon="Gengar"
+          regularcp="1496"
+          weatherboostcp="1870"
+          />
+        <Wrap>
+          <GengarFocusBlastList gengarfb={gengarfb} />
+          <GengarSludgeBombList gengarsgb={gengarsgb} />
+          <GengarShadowBallList gengarsb={gengarsb} />
+        </Wrap>
+      </div>
       </BodyClassName>
     );
 

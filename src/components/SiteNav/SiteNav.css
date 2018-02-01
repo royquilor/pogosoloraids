@@ -1,5 +1,6 @@
 .nav {
-  padding: 1rem;
+  padding: 1rem 0 1rem 1rem;
+  background-color: #FF5F6D;
 }
 
 nav a {
@@ -7,10 +8,10 @@ nav a {
   text-decoration: none;
   padding: 0;
   display: inline-block;
-  color: rgba(0,0,0,.7);
+  color: #fff;
   font-weight: 400;
 }
 
-.home .nav a {
-
+.active {
+  font-weight: 600;
 }

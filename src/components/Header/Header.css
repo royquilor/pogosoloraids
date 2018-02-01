@@ -1,34 +1,44 @@
 header {
-  xbackground: #333333;  /* fallback for old browsers */
-  xcolor: white;
-  padding: 1rem 0;
-  xbox-shadow: 0 4px 12px rgba(0,0,0,.08);
+font-family: Orbitron;
+margin-bottom: 2rem;
+color: #fff;
 }
 
-.alakazam header {
-xbackground-color: #F012BE;
+header h2 {
+  margin: 0;
 }
 
-.machamp header {
-xbackground-color: #FF4136;
+.alakazam header,
+.alakazam nav {
+background-color: #F012BE;
 }
 
-.gengar header {
-xbackground-color: #B10DC9;
+.machamp header,
+.machamp nav {
+background-color: #FF4136;
 }
 
-.ninetales header {
-xbackground-color: #FF851B;
+.gengar header,
+.gengar nav {
+background-color: #B10DC9;
 }
 
-.omastar header {
-xbackground-color: #0074D9;
+.ninetales header,
+.ninetales nav {
+background-color: #FF851B;
 }
 
-.porygon header {
-xbackground-color: #AAAAAA;
+.omastar header,
+.omastar nav {
+background-color: #0074D9;
 }
 
-.scyther header {
-xbackground-color: #2ECC40;
+.porygon header,
+.porygon nav {
+background-color: #AAAAAA;
+}
+
+.scyther header,
+.scyther nav  {
+background-color: #2ECC40;
 }

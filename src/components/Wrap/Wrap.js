@@ -3,7 +3,7 @@ import './Wrap.css'
 
 const Wrap = (props) => {
   return (
-    <div className="pa3 pt4 pt5-ns black-70">
+    <div className="black-70 pa3">
       {props.children}
     </div>
   )

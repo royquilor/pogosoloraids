@@ -16,6 +16,7 @@ import AlakazamPsychoCutFutureSightList from './AlakazamPsychoCutFutureSightList
 import AlakazamPsychoCutShadowBallList from './AlakazamPsychoCutShadowBallList';
 
 import Wrap from '../Wrap/Wrap';
+import Header from '../Header/Header';
 
 class Alakazam extends Component {
 
@@ -23,15 +24,21 @@ class Alakazam extends Component {
 
     return (
       <BodyClassName className="alakazam">
-        <Wrap>
-          <h2 className="f2 fw6 psychic">Alakazam</h2>
+        <div>
+          <Header
+            pokemon="Alakazam"
+            regularcp="1649"
+            weatherboostcp="2062"
+            />
+          <Wrap>
           <AlakazamConfusionFocusBlastList alakazamcfb={alakazamcfb} />
           <AlakazamConfusionFutureSightList alakazamcfs={alakazamcfs} />
           <AlakazamConfusionShadowBallList alakazamcsb={alakazamcsb} />
           <AlakazamPsychoCutFocusBlastList alakazampcfb={alakazampcfb} />
           <AlakazamPsychoCutFutureSightList alakazampcfs={alakazampcfs} />
           <AlakazamPsychoCutShadowBallList alakazampcsb={alakazampcsb} />
-        </Wrap>
+          </Wrap>
+        </div>
       </BodyClassName>
     );
 
