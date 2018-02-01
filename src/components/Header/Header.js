@@ -7,7 +7,10 @@ const Header = (props) => {
       <h2 className="f2 fw6 fl dib">
         <span className={props.type}>{props.pokemon}</span>
       </h2>
-      <span className="dib fr f3">{props.regularcp}/{props.weatherboostcp}<small> cp</small></span>
+      <div className="dib fr f3 tr">
+        <span className="db"><small>perfect cp</small> {props.regularcp}</span>
+        <span className="db"><small>weather boost</small> {props.weatherboostcp}</span>
+      </div>
     </header>
   )
 }
