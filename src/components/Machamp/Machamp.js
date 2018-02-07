@@ -21,10 +21,10 @@ class Machamp extends Component {
         <div>
           <Header
             pokemon="Machamp"
+            type="fighting"
             regularcp="1650"
             weatherboostcp="2063"
             likes="Cloudy"
-            counters="Windy"
             />
           <Wrap>
             <MachampCloseCombatList machampcc={machampcc} />

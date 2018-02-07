@@ -9,7 +9,7 @@ h3,
 table,
 a,
 input {
-  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  /* font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; */
   /* font-family: courier, 'Anonymous Pro', 'Space Mono', monospace; */
   /* font-family: 'Roboto Mono', monospace; */
   /* font-family: ArialRoundedMTBold; */
@@ -27,28 +27,28 @@ th {
 h1,
 h2 {
 font-family: Orbitron;
-text-transform: uppercase;
+
 }
 
 h2 {
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 h3 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.home h3 {
+  font-family: orbitron;
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 400;
-
 }
 
 a {
   font-size: .875rem;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-bottom: .5rem;
 }
 
 th:empty,
@@ -104,24 +104,45 @@ td:empty {
 
 .submit {
   color: #fff;
-  font-family: Orbitron;
-  text-transform: uppercase;
+  font-weight: 600;
   letter-spacing: .1em;
-  line-height: 1;
+  xfont-family: Orbitron;
+  text-transform: uppercase;
   xbackground: linear-gradient(to bottom, #24CCAA, #A2DB95);
+  background: linear-gradient(45deg, #E47B49 0%, #ea4c89 100%);
   border-radius: 5px;
-  xborder-radius: 500px;
-  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 500px;
+  xbox-shadow: 0 0 0 2px #333 inset;
   transition: all .2s ease-in-out;
   text-align: center;
-  xborder: 1px solid #ddd;
   text-decoration: none;
 }
 
 .hero {
+
+
+
+}
+
+.home .App {
   background: #FF5F6D;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #FF5F6D, #FFC371);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #FF5F6D, #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.App {
+  padding: .5rem;
+}
 
+main {
+  background: #fff;
+  padding: 3rem;
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.home h1 {
+  background: -webkit-linear-gradient(#FF5F6D, #FFC371);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }

@@ -21,10 +21,10 @@ class Gengar extends Component {
       <div>
         <Header
           pokemon="Gengar"
+          type="ghost"
           regularcp="1496"
           weatherboostcp="1870"
           likes="Cloudy, Foggy"
-          counters="Windy"
           />
         <Wrap>
           <GengarFocusBlastList gengarfb={gengarfb} />

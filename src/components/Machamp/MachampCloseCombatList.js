@@ -3,6 +3,7 @@ import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
 import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
+import Avatar from '../Avatar/Avatar'
 
 class MachampCloseCombatList extends Component {
 
@@ -15,10 +16,10 @@ class MachampCloseCombatList extends Component {
         <Pokemon
           key={pokemon.id}
           name={pokemon.name}
-          level={pokemon.level}
-          iv={pokemon.iv}
-          cp={pokemon.cp}
           moveset={pokemon.moveset}
+          iv={pokemon.iv}
+          level={pokemon.level}
+          cp={pokemon.cp}
           classname={pokemon.classname}
           />
       )
@@ -28,23 +29,26 @@ class MachampCloseCombatList extends Component {
       <div>
         <HeadingMoveset
           type1="fighting"
-          fastmove="Close Combat"
-          />
+          fastmove="Close Combat">
+          <Avatar
+            text="youtube"
+            href="/"
+            />
+        </HeadingMoveset>
         <Table>
         <thead>
           <tr>
-            <TableHeader>Pokemon</TableHeader>
-            <TableHeader>Level</TableHeader>
-            <TableHeader>IV</TableHeader>
-            <TableHeader>CP</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
+            <TableHeader>IV</TableHeader>
+            <TableHeader>Level</TableHeader>
+            <TableHeader>CP</TableHeader>
           </tr>
         </thead>
         <tbody>
           {MachampCloseCombatList}
         </tbody>
         </Table>
-        <a className="db mb4" href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/">link updated</a>
       </div>
     );
 

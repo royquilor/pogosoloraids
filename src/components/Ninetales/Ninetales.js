@@ -17,10 +17,10 @@ class Ninetales extends Component {
         <div>
           <Header
             pokemon="Ninetales"
+            type="fire"
             regularcp="1233"
             weatherboostcp="1541"
             likes="Clear/Sunny"
-            counters="Rain, Partly Cloudy"
             />
           <Wrap>
             <NinetalesHeatwaveList ninetalesh={ninetalesh} />

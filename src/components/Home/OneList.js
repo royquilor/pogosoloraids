@@ -30,14 +30,14 @@ class OneList extends Component {
         <Table heading={"1v1"}>
         <thead>
           <tr>
-            <TableHeader>Raid Boss</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
             <TableHeader>Trainer</TableHeader>
             <TableHeader>Pokemon</TableHeader>
             <TableHeader>Moveset</TableHeader>
             <TableHeader>Level</TableHeader>
             <TableHeader>CP</TableHeader>
-            <TableHeader>Link</TableHeader>
+            <TableHeader>Proof</TableHeader>
           </tr>
         </thead>
         <tbody>

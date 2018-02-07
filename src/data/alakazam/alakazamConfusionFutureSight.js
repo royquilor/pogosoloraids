@@ -2,18 +2,18 @@ export default [
   {
     id: 0,
     name: 'Tyranitar',
+    moveset: 'Bite, Crunch',
     level: 30,
     iv: 96,
     cp: 3548,
-    moveset: 'Bite, Crunch',
     classname:''
   },{
     id: 1,
     name: 'Gengar',
+    moveset: 'Shadow Claw (legacy), Shadow Ball',
     level: 30,
     iv: 98,
     cp: 2650,
-    moveset: 'Shadow Claw (legacy), Shadow Ball',
     classname:''
   },{
     id: 2,

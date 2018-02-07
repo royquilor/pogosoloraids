@@ -1,6 +1,6 @@
 .nav {
   padding: 1rem 0 1rem 1rem;
-  background-color: #FF5F6D;
+  xbackground-color: #FF5F6D;
 }
 
 nav a {
@@ -8,10 +8,12 @@ nav a {
   text-decoration: none;
   padding: 0;
   display: inline-block;
-  color: #fff;
+  color: #333;
   font-weight: 400;
+  font-size: .75rem;
 }
 
-.active {
-  font-weight: 600;
+.logo {
+  font-family: orbitron;
+  font-size: 1.25rem;
 }

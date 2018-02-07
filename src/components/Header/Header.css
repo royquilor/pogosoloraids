@@ -1,6 +1,6 @@
-header {
+header h1,
+dd:last-child {
 font-family: Orbitron;
-color: #fff;
 }
 
 header h2 {
@@ -11,37 +11,62 @@ small {
   font-size: 1rem;
 }
 
-.alakazam header,
-.alakazam nav {
+dl {
+  border-bottom-style: dashed;
+  border-right-style: dashed;
+  border-width: 1px;
+  border-top-style: dashed;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-color: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.7);
+}
+
+dl:last-child {
+  border-right-style: none;
+}
+
+dd {
+  line-height: 1.5;
+}
+
+.alakazam .App {
 background-color: #F012BE;
 }
 
-.machamp header,
-.machamp nav {
+.alakazam th:nth-child(3),
+.alakazam th:nth-child(4),
+.alakazam th:nth-child(5) {
+  text-align: right;
+}
+
+.alakazam td:nth-child(4),
+.alakazam td:nth-child(5),
+.alakazam td:nth-child(6) {
+  text-align: right;
+}
+
+.machamp .App {
 background-color: #FF4136;
 }
 
-.gengar header,
-.gengar nav {
+.gengar .App {
 background-color: #B10DC9;
 }
 
-.ninetales header,
-.ninetales nav {
+.ninetales .App {
 background-color: #FF851B;
 }
 
-.omastar header,
-.omastar nav {
+.omastar .App {
 background-color: #0074D9;
 }
 
-.porygon header,
-.porygon nav {
+.porygon .App {
 background-color: #AAAAAA;
 }
 
-.scyther header,
-.scyther nav  {
+.scyther .App {
 background-color: #2ECC40;
 }

@@ -4,10 +4,10 @@ import './Table.css'
 const Table = (props) => {
   return (
     <div>
-      <h3 className="f5 f4-ns fw6">
+      <h3 className="f3 fw4 tracked-mega ttu tc mb3">
         {props.heading}
       </h3>
-      <div className="overflow-auto">
+      <div className="overflow-auto table-wrap">
         <table className="f6 w-100" cellSpacing="0">
           {props.children}
         </table>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const TableHeader = (props) => {
   return (
-      <th className="bb b--black-10 tl pv2 pr2 bg-white">
+      <th className="b--black-20 tl pv3 pr2 bg-white ttu fw6">
         {props.children}
       </th>
   )

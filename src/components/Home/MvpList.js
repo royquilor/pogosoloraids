@@ -20,7 +20,7 @@ class MvpList extends Component {
         <Table heading={"MVP"}>
         <thead>
           <tr>
-            <TableHeader>Pokemon</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
             <TableHeader>Raid Boss</TableHeader>
           </tr>

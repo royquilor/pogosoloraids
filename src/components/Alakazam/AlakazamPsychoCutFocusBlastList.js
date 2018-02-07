@@ -3,6 +3,7 @@ import Pokemon from '../Pokemon/Pokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
 import HeadingMoveset from '../HeadingMoveset/HeadingMoveset'
+import Avatar from '../Avatar/Avatar'
 
 class AlakazamPsychoCutFocusBlastList extends Component {
 
@@ -30,23 +31,26 @@ class AlakazamPsychoCutFocusBlastList extends Component {
           type1="psychic"
           fastmove="Psycho Cut"
           type2="fighting"
-          chargemove="Focus Blast"
-          />
+          chargemove="Focus Blast">
+          <Avatar
+            text="youtube - Anuj Kulkarni"
+            href="https://www.youtube.com/watch?v=wDJSRwBgOJ8"
+            />
+        </HeadingMoveset>
         <Table>
         <thead>
           <tr>
-            <TableHeader>Pokemon</TableHeader>
-            <TableHeader>Level</TableHeader>
-            <TableHeader>IV</TableHeader>
-            <TableHeader>CP</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
+            <TableHeader>IV</TableHeader>
+            <TableHeader>Level</TableHeader>
+            <TableHeader>CP</TableHeader>
           </tr>
         </thead>
         <tbody>
           {AlakazamPsychoCutFocusBlastList}
         </tbody>
         </Table>
-        <a className="db mb4" href="https://www.youtube.com/watch?v=wDJSRwBgOJ8">youtube - Anuj Kulkarni</a>
       </div>
     );
 

@@ -16,10 +16,10 @@ class AlakazamConfusionFutureSightList extends Component {
         <Pokemon
           key={pokemon.id}
           name={pokemon.name}
-          level={pokemon.level}
-          iv={pokemon.iv}
-          cp={pokemon.cp}
           moveset={pokemon.moveset}
+          iv={pokemon.iv}
+          level={pokemon.level}
+          cp={pokemon.cp}
           classname={pokemon.classname}
           />
       )
@@ -31,26 +31,26 @@ class AlakazamConfusionFutureSightList extends Component {
           type1="psychic"
           fastmove="Confusion"
           type2="psychic"
-          chargemove="Future Sight"
-          />
+          chargemove="Future Sight">
+          <Avatar
+            text="youtube - pokecuno"
+            href="https://www.youtube.com/watch?v=1VbY2YinRE8"
+            />
+        </HeadingMoveset>
         <Table>
         <thead>
           <tr>
-            <TableHeader>Pokemon</TableHeader>
-            <TableHeader>Level</TableHeader>
-            <TableHeader>IV</TableHeader>
-            <TableHeader>CP</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
+            <TableHeader>IV</TableHeader>
+            <TableHeader>Level</TableHeader>
+            <TableHeader>CP</TableHeader>
           </tr>
         </thead>
         <tbody>
           {AlakazamConfusionFutureSightList}
         </tbody>
         </Table>
-        <Avatar
-          text="youtube - pokecuno"
-          href="https://www.youtube.com/watch?v=1VbY2YinRE8"
-          />
       </div>
     );
 

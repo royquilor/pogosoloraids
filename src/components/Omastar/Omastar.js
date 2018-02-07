@@ -17,10 +17,10 @@ class Omastar extends Component {
       <div>
         <Header
           pokemon="Omastar"
+          type="water"
           regularcp="1534"
           weatherboostcp="1918"
           likes="Partly Cloudy, Rainy"
-          counters="Clear/Sunny "
           />
         <Wrap>
           <OmastarHydroPumpList omastarhp={omastarhp} />

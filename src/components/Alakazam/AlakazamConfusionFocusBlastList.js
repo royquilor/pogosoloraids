@@ -15,11 +15,11 @@ class AlakazamConfusionFocusBlastList extends Component {
       return (
         <Pokemon
           key={pokemon.id}
-          iv={pokemon.iv}
           name={pokemon.name}
-          level={pokemon.level}
-          cp={pokemon.cp}
           moveset={pokemon.moveset}
+          level={pokemon.level}
+          iv={pokemon.iv}
+          cp={pokemon.cp}
           classname={pokemon.classname}
           />
       )
@@ -31,26 +31,26 @@ class AlakazamConfusionFocusBlastList extends Component {
           type1="psychic"
           fastmove="Confusion"
           type2="fighting"
-          chargemove="Focus Blast"
-          />
+          chargemove="Focus Blast">
+          <Avatar
+            text="reddit source"
+            href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/"
+            />
+        </HeadingMoveset>
         <Table>
         <thead>
           <tr>
-            <TableHeader>Pokemon</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
+            <TableHeader>Moveset</TableHeader>
             <TableHeader>IV</TableHeader>
             <TableHeader>Level</TableHeader>
             <TableHeader>CP</TableHeader>
-            <TableHeader>Moveset</TableHeader>
           </tr>
         </thead>
         <tbody>
           {AlakazamConfusionFocusBlastList}
         </tbody>
         </Table>
-        <Avatar
-          text="reddit source"
-          href="https://www.reddit.com/r/TheSilphRoad/comments/79jple/just_soloed_cfb_alakazam_with_level_31_mons_very/"
-          />
       </div>
     );
 
