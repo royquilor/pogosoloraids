@@ -36,3 +36,28 @@ td {
 .raidboss td:nth-child(4) {
   display: none;
 }
+
+@media screen and (min-width: 30em) {
+  .raidboss th:nth-child(3),
+  .raidboss td:nth-child(4) {
+    display: table-cell;
+  }
+}
+
+/*
+@media (--breakpoint-not-small) {
+  .medium-and-larger-specific-style {
+    background-color: red;
+  }
+}
+@media (--breakpoint-medium) {
+  .medium-screen-specific-style {
+    background-color: red;
+  }
+}
+@media (--breakpoint-large) {
+  .large-and-larger-screen-specific-style {
+    background-color: red;
+  }
+}
+*/
