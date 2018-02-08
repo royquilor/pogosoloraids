@@ -23,7 +23,7 @@ class Alakazam extends Component {
   render() {
 
     return (
-      <BodyClassName className="alakazam">
+      <BodyClassName className="raidboss alakazam">
         <div>
           <Header
             pokemon="Alakazam"

@@ -13,7 +13,7 @@ class Ninetales extends Component {
   render() {
 
     return (
-      <BodyClassName className="ninetales">
+      <BodyClassName className="raidboss ninetales">
         <div>
           <Header
             pokemon="Ninetales"

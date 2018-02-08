@@ -17,7 +17,7 @@ class Machamp extends Component {
   render() {
 
     return (
-      <BodyClassName className="machamp">
+      <BodyClassName className="raidboss machamp">
         <div>
           <Header
             pokemon="Machamp"

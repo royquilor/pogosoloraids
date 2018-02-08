@@ -31,3 +31,8 @@ td {
   border-bottom-style: dashed;
   border-width: 1px;
 }
+
+.raidboss th:nth-child(3),
+.raidboss td:nth-child(4) {
+  display: none;
+}

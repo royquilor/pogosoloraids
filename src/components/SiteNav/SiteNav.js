@@ -7,10 +7,10 @@ import {
 
 const SiteNav = (props) => {
   return (
-    <nav className="nav dt w-100 border-box ">
-      <NavLink to="/" exact={true} className="dtc v-mid mid-gray link dim w-25 logo" activeClassName="active">SoloRaid</NavLink>
+    <nav className="nav dt-ns w-100 border-box ">
+      <NavLink to="/" exact={true} className="dtc-ns v-mid mid-gray link dim w-100 w-25-ns logo" activeClassName="active">SoloRaid</NavLink>
 
-      <div className="nowrap overflow-x-auto overflow-y-hidden dtc v-mid w-75 tr">
+      <div className="nowrap overflow-x-auto overflow-y-hidden dtc-ns v-mid w-100 w-75-ns tr f7 f6-ns">
         <NavLink to="/Alakazam" activeClassName="active psychic">Alakazam</NavLink>
         <NavLink to="/Gengar" activeClassName="active ghost">Gengar</NavLink>
         <NavLink to="/Machamp" activeClassName="active fighting">Machamp</NavLink>

@@ -3,8 +3,8 @@ import './HeadingMoveset.css'
 
 const HeadingMoveset = (props) => {
   return (
-    <h3 className="f5 fw4 cf">
-      <div className="fl">
+    <h3 className="f6 f5-ns fw4 cf lh-copy">
+      <div className="fl-ns">
       <span className={props.type1}>
         {props.fastmove}
       </span> &nbsp;

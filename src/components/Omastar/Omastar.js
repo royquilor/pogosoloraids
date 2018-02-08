@@ -13,7 +13,7 @@ class Omastar extends Component {
   render() {
 
     return (
-      <BodyClassName className="omastar">
+      <BodyClassName className="raidboss omastar">
       <div>
         <Header
           pokemon="Omastar"

@@ -8,7 +8,7 @@ const Table = (props) => {
         {props.heading}
       </h3>
       <div className="overflow-auto table-wrap">
-        <table className="f6 w-100" cellSpacing="0">
+        <table className="f6 f5-ns w-100" cellSpacing="0">
           {props.children}
         </table>
       </div>

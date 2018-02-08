@@ -1,6 +1,5 @@
 .nav {
-  padding: 1rem 0 1rem 1rem;
-  xbackground-color: #FF5F6D;
+
 }
 
 nav a {
@@ -10,7 +9,6 @@ nav a {
   display: inline-block;
   color: #333;
   font-weight: 400;
-  font-size: .75rem;
 }
 
 .logo {

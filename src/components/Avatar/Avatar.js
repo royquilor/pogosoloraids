@@ -4,7 +4,7 @@ import './Avatar.css'
 const Avatar = (props) => {
   return (
     <div className="">
-      <div className="dt fr">
+      <div className="dt fr-ns">
         <a className="dtc v-mid" href={props.href}>{props.text}</a>
       </div>
     </div>

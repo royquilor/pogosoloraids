@@ -3,20 +3,22 @@ import './Header.css'
 
 const Header = (props) => {
   return (
-    <header class="pa3 mw8 center cf pv6" data-name="slab-stat">
+    <header className="pa3-ns mw8 center cf pv3 pv6-ns" data-name="slab-stat">
       <h1 className="f4 f2-ns fw6 mv0 tc"><span className={props.type}>{props.pokemon}</span></h1>
-      <dl class="dib w-33 fl">
-        <dd class="f6 fw4 ml0">Perfect CP</dd>
-        <dd class="f3 fw6 ml0">{props.regularcp}</dd>
+      <div className="mv3">
+      <dl className="dib w-50 w-33-ns fl">
+        <dd className="f6 fw4 ml0">Perfect CP</dd>
+        <dd className="f3 fw6 ml0">{props.regularcp}</dd>
       </dl>
-      <dl class="dib w-33 fl">
-        <dd class="f6 fw4 ml0">Weather Boost</dd>
-        <dd class="f3 fw6 ml0">{props.weatherboostcp}</dd>
+      <dl className="dib w-50 w-33-ns fl">
+        <dd className="f6 fw4 ml0">Weather Boost</dd>
+        <dd className="f3 fw6 ml0">{props.weatherboostcp}</dd>
       </dl>
-      <dl class="dib w-33 fl">
-        <dd class="f6 fw4 ml0">Prefers</dd>
-        <dd class="f3 fw6 ml0 ttu">{props.likes}</dd>
+      <dl className="dib w-100 w-33-ns fl-ns">
+        <dd className="f6 fw4 ml0">Prefers</dd>
+        <dd className="f3 fw6 ml0 ttu">{props.likes}</dd>
       </dl>
+      </div>
     </header>
 
   )

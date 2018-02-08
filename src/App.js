@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 
 import SiteNav from './components/SiteNav/SiteNav';
-import SubNav from './components/SubNav/SubNav';
 
 import Home from './components/Home/Home';
 import Alakazam from './components/Alakazam/Alakazam';
@@ -31,8 +30,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <main className="br2">
+        <div className="App pa1 pa2-ns">
+          <main className="br2 pa3 pa5-ns">
             <SiteNav />
             <Route exact path ='/' component={Home} />
             <Route exact path ='/alakazam' component={Alakazam} />

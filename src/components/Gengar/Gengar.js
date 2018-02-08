@@ -17,7 +17,7 @@ class Gengar extends Component {
   render() {
 
     return (
-      <BodyClassName className="gengar">
+      <BodyClassName className="raidboss gengar">
       <div>
         <Header
           pokemon="Gengar"
