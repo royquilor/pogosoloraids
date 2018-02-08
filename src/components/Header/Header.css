@@ -101,17 +101,35 @@ font-family: Orbitron;
 
 dl {
   border-bottom-style: dashed;
-  border-right-style: dashed;
+
   border-width: 1px;
   border-top-style: dashed;
   text-align: center;
   border-color: rgba(0,0,0,.2);
   color: rgba(0,0,0,.7);
   margin: 0;
+  flex-grow: 1;
+}
+
+dl:first-child {
+  border-right-style: dashed;
 }
 
 dl:last-child {
   border-right-style: none;
+  border-top-style: none;
+}
+
+@media screen and (min-width: 30em) {
+  dl {
+    flex-grow: 0;
+    border-right-style: dashed;
+  }
+
+  dl:last-child {
+    border-top-style: dashed;
+  }
+
 }
 
 dd {

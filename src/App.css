@@ -13,7 +13,7 @@ flex-direction: column;
 }
 
 .App {
-
+transition: all .2s ease-in-out;
 }
 
 main {
