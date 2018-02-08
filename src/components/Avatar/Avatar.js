@@ -3,11 +3,9 @@ import './Avatar.css'
 
 const Avatar = (props) => {
   return (
-    <div className="">
-      <div className="dt fr-ns">
-        <a className="dtc v-mid" href={props.href}>{props.text}</a>
+      <div className="">
+        <a className="f6 f5-ns fw4" href={props.href}>{props.text}</a>
       </div>
-    </div>
   )
 }
 

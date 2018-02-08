@@ -10,17 +10,6 @@ th {
   font-weight: 600;
 }
 
-.table-wrap {
-  /* border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0,0,0,.1);
-  border-radius: 3px; */
-}
-
-.table-wrap table {
-  xmargin: 0;
-}
-
 th {
   border-bottom-style: dashed;
   border-width: 1px;
