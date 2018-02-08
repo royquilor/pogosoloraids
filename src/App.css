@@ -1,6 +1,26 @@
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
+min-height: 100vh;
+
+flex-direction: column;
+
+}
+
+.App {
+
+}
+
+main {
+  background: #fff;
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+  font-family: 'Roboto Mono', monospace;
+
 }
 
 h1,
@@ -89,12 +109,4 @@ td:empty {
   transition: all .2s ease-in-out;
   text-align: center;
   text-decoration: none;
-}
-
-
-
-main {
-  background: #fff;
-  box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
-  font-family: 'Roboto Mono', monospace;
 }
