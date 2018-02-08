@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import BodyClassName from 'react-body-classname'
 
 import ninetalesh from '../../data/ninetales/ninetalesHeatwave'
+import ninetaleso from '../../data/ninetales/ninetalesOverheat'
 
 import NinetalesHeatwaveList from './NinetalesHeatwaveList';
+import NinetalesOverheatList from './NinetalesOverheatList';
 
 import Wrap from '../Wrap/Wrap';
 import Header from '../Header/Header';
@@ -24,6 +26,7 @@ class Ninetales extends Component {
             />
           <Wrap>
             <NinetalesHeatwaveList ninetalesh={ninetalesh} />
+            <NinetalesOverheatList ninetaleso={ninetaleso} />
           </Wrap>
         </div>
       </BodyClassName>
