@@ -94,3 +94,27 @@ background-color: #AAAAAA;
 .scyther .App {
 background-color: #2ECC40;
 }
+
+dd:last-child {
+font-family: Orbitron;
+}
+
+dl {
+  border-bottom-style: dashed;
+  border-right-style: dashed;
+  border-width: 1px;
+  border-top-style: dashed;
+  text-align: center;
+  border-color: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.7);
+  margin: 0;
+}
+
+dl:last-child {
+  border-right-style: none;
+}
+
+dd {
+  line-height: 1.5;
+  margin: 0;
+}
