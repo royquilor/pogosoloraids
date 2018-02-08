@@ -3,11 +3,11 @@ import './HeadingMoveset.css'
 
 const HeadingMoveset = (props) => {
   return (
-    <h3 className="heading-moveset f6 f5-ns fw4 cf lh-copy flex justify-center">
+    <h3 className="heading-moveset f6 f5-ns fw4 lh-copy nav flex xjustify-center items-center justify-between flex-column flex-row-ns">
       <div className="">
         <span className={props.type1}>
           {props.fastmove}
-        </span> &nbsp;
+        </span>
         <span className={props.type2}>
           {props.chargemove}
         </span>

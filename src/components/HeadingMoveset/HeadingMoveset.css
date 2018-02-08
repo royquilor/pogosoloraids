@@ -1,3 +1,7 @@
-.heading-moveset div {
-  flex-grow: 1;
+.heading-moveset span + span {
+  margin-left: 1rem;
+}
+
+.heading-moveset span:empty {
+ display: none;
 }
