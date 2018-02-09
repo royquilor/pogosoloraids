@@ -31,8 +31,8 @@ class GengarShadowBallList extends Component {
           type1="ghost"
           fastmove="Shadow Ball">
           <Avatar
-            text="youtube"
-            href="/"
+            text="pokecuno"
+            href="https://youtu.be/y2VluGEtawM"
             />
         </HeadingMoveset>
         <Table>

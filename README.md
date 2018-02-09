@@ -30,9 +30,9 @@ Community gathered solo raids
 
 ### Gengar
 
-- Sludge Bomb [link](url)
+- ~~Sludge Bomb~~ [pokecuno](https://youtu.be/HaaOQjjMHEI)
 - Focus Blast [link](url)
-- Shadow Ball [link](url)
+- ~~Shadow Ball~~ [pokecuno](https://youtu.be/y2VluGEtawM)
 
 ### Ninetales
 

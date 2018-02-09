@@ -3,49 +3,49 @@ export default [
     id: 0,
     name: 'Espeon',
     level: 30,
-    iv: 98,
-    cp: 2650,
+    iv: '?',
+    cp: 2556,
     moveset: 'Confusion, Future Sight',
     classname:''
   },{
     id: 1,
-    name: 'Alakazam',
+    name: 'Espeon',
     level: 30,
-    iv: 98,
-    cp: 2650,
-    moveset: 'Confusion, Future Sight',
+    iv: '?',
+    cp: 2526,
+    moveset: 'Confusion, Psychic',
     classname:''
   },{
     id: 2,
     name: 'Gengar',
-    level: 30.5,
-    iv: 98,
-    cp: 2650,
+    level: 30,
+    iv: '?',
+    cp: 2231,
     moveset: 'Hex, Shadow Ball',
     classname:''
   },{
     id: 3,
     name: 'Gengar',
     level: 30,
-    iv: 98,
-    cp: 2203,
+    iv: '?',
+    cp: 2207,
     moveset: 'Hex, Shadow Ball',
     classname:''
   },{
     id: 4,
-    name: 'Golem',
-    level: 29,
-    iv: 98,
-    cp: 2495,
-    moveset: 'Mud Slap, Earthquake',
+    name: 'Tyranitar',
+    level: 30,
+    iv: '?',
+    cp: 3138,
+    moveset: 'Bite, Crunch',
     classname:''
   },{
     id: 5,
-    name: 'Espeon',
-    level: 30.5,
-    iv: 98,
-    cp: 2650,
-    moveset: 'Confusion, Future Sight',
+    name: 'Tyranitar',
+    level: 30,
+    iv: '?',
+    cp: 3113,
+    moveset: 'Bite, Crunch',
     classname:''
   }
 ]

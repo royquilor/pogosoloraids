@@ -31,8 +31,8 @@ class GengarSludgeBombList extends Component {
           type1="poison"
           fastmove="Sludge Bomb">
           <Avatar
-            text="youtube"
-            href="/"
+            text="pokecuno"
+            href="https://youtu.be/HaaOQjjMHEI"
             />
         </HeadingMoveset>
         <Table>
