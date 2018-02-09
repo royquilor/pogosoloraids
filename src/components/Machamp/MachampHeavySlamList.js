@@ -31,8 +31,8 @@ class MachampHeavySlamList extends Component {
           type1="steel"
           fastmove="Heavy Slam">
           <Avatar
-            text="youtube"
-            href="/"
+            text="pokecuno"
+            href="https://youtu.be/TDYX6hxON1M"
             />
         </HeadingMoveset>
         <Table>

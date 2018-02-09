@@ -23,7 +23,7 @@ Community gathered solo raids
 
 - Close Combat [I'm an inline-style link](https://www.google.com)
 - Dynamic Punch [I'm an inline-style link](https://www.google.com)
-- Heavy Slam [I'm an inline-style link](https://www.google.com)
+- ~~Heavy Slam~~ [pokecuno](https://youtu.be/TDYX6hxON1M)
 
 ### Gengar
 
