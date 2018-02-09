@@ -5,40 +5,43 @@ Community gathered solo raids
 ## TODO
 
 - proof data
+- with mewtwo
+- unique counters
+- level 30
 - ~~flexbox nav mobile~~
 
 ## Alakazam
 
 #### Psycho Cut
-- Focus Blast [I'm an inline-style link](https://www.google.com)
-- Shadow Ball [I'm an inline-style link](https://www.google.com)
-- Future Sight [I'm an inline-style link](https://www.google.com)
+- Focus Blast [link](url)
+- Shadow Ball [link](url)
+- Future Sight [link](url)
 
 #### Confusion
-- Focus Blast [I'm an inline-style link](https://www.google.com)
-- Shadow Ball [I'm an inline-style link](https://www.google.com)
-- Future Sight [I'm an inline-style link](https://www.google.com)
+- Focus Blast [link](url)
+- Shadow Ball [link](url)
+- Future Sight [link](url)
 
 ### Machamp
 
-- Close Combat [I'm an inline-style link](https://www.google.com)
-- Dynamic Punch [I'm an inline-style link](https://www.google.com)
+- ~~Close Combat~~ [pokecuno](https://youtu.be/eKdtai2_Itc)
+- ~~Dynamic Punch~~ [pokecuno](https://youtu.be/WfHR-t-Hj6M)
 - ~~Heavy Slam~~ [pokecuno](https://youtu.be/TDYX6hxON1M)
 
 ### Gengar
 
-- Sludge Bomb [I'm an inline-style link](https://www.google.com)
-- Focus Blast [I'm an inline-style link](https://www.google.com)
-- Shadow Ball [I'm an inline-style link](https://www.google.com)
+- Sludge Bomb [link](url)
+- Focus Blast [link](url)
+- Shadow Ball [link](url)
 
 ### Ninetales
 
-- Solar Beam [I'm an inline-style link](https://www.google.com)
-- Overheat [I'm an inline-style link](https://www.google.com)
-- Heat Wave [I'm an inline-style link](https://www.google.com)
+- Solar Beam [link](url)
+- Overheat [link](url)
+- Heat Wave [link](url)
 
 ### Omastar
 
-- Ancient Power [I'm an inline-style link](https://www.google.com)
-- Rock Blast [I'm an inline-style link](https://www.google.com)
-- Hydro Pump [I'm an inline-style link](https://www.google.com)
+- Ancient Power [link](url)
+- Rock Blast [link](url)
+- Hydro Pump [link](url)

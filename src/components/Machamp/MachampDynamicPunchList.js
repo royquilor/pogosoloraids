@@ -31,8 +31,8 @@ class MachampDynamicPunchList extends Component {
           type1="fighting"
           fastmove="Dynamic Punch">
           <Avatar
-            text="youtube"
-            href="/"
+            text="pokecuno"
+            href="https://youtu.be/WfHR-t-Hj6M"
             />
         </HeadingMoveset>
         <Table>

@@ -31,8 +31,8 @@ class MachampCloseCombatList extends Component {
           type1="fighting"
           fastmove="Close Combat">
           <Avatar
-            text="youtube"
-            href="/"
+            text="pokecuno"
+            href="https://youtu.be/eKdtai2_Itc"
             />
         </HeadingMoveset>
         <Table>
