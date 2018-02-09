@@ -9,7 +9,7 @@ Community gathered solo raids
 ### Alakazam
 
 - Confusion
---Focus Blast
+..* Focus Blast
 - Shadow Ball
 - Future Sight
 
