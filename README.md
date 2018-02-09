@@ -8,10 +8,10 @@ Community gathered solo raids
 
 ## Alakazam
 
-### Confusion
-- Focus Blast
-- Shadow Ball
-- Future Sight
+#### Confusion
+- Focus Blast [I'm an inline-style link](https://www.google.com)
+- Shadow Ball [I'm an inline-style link](https://www.google.com)
+- Future Sight [I'm an inline-style link](https://www.google.com)
 
 ### Machamp
 
