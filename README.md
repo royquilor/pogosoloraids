@@ -1,4 +1,4 @@
-# Soloed
+# SoloRaid
 
 Community gathered solo raids
 
