@@ -2,14 +2,14 @@
 
 Community gathered solo raids
 
-### TODO
+## TODO
 
 - flexbox nav mobile
 
-### Alakazam
+## Alakazam
 
-- Confusion
-..* Focus Blast
+### Confusion
+- Focus Blast
 - Shadow Ball
 - Future Sight
 
