@@ -6,17 +6,18 @@ Community gathered solo raids
 
 - flexbox nav mobile
 
+### Alakazam
+
+- Confusion
+⋅⋅Focus Blast
+- Shadow Ball
+- Future Sight
+
 ### Machamp
 
 - Close Combat
 - Dynamic Punch
 - Heavy Slam
-
-### Alakazam
-
-- Focus Blast
-- Shadow Ball
-- Future Sight
 
 ### Gengar
 
