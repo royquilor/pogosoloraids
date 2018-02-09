@@ -4,7 +4,7 @@ Community gathered solo raids
 
 ## TODO
 
-- flexbox nav mobile
+- ~~flexbox nav mobile~~
 
 ## Alakazam
 
