@@ -7,9 +7,7 @@ body {
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 min-height: 100vh;
-
 flex-direction: column;
-
 }
 
 .App {
@@ -20,7 +18,6 @@ main {
   background: #fff;
   box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
   font-family: 'Roboto Mono', monospace;
-
 }
 
 h1,
@@ -47,6 +44,13 @@ h3 {
 
 a {
   font-size: .875rem;
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+
+.link:focus {
+    outline: none;
 }
 
 th:empty,
@@ -98,15 +102,4 @@ td:empty {
 
 .water {
   color: #0074D9;
-}
-
-.submit {
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  border-radius: 500px;
-  transition: all .2s ease-in-out;
-  text-align: center;
-  text-decoration: none;
 }

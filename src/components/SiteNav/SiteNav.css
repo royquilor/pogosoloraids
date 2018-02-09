@@ -2,11 +2,16 @@ nav a {
   text-decoration: none;
   padding: 0;
   display: inline-block;
-  color: #333;
   font-weight: 400;
 }
 
-.logo {
-  font-family: orbitron;
-  font-size: 1.25rem;
+.submit {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  border-radius: 500px;
+  transition: all .2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
 }

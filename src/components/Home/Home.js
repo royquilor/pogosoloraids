@@ -22,7 +22,7 @@ class Home extends Component {
               <h1 className="f4 fw6 f1-ns lh-solid mb3 mt0 xttu">Level 3 Solo Hall of Fame</h1>
             </div>
             <div className="tl mb4-ns w-50-ns fl-ns">
-              <p className="f6 lh-copy measure center db">Pokemon go stuff gathered by a community. 6/7 raid bosses solo'd with level 30 pokemon without weather boost.</p>
+              <p className="f6 f5-ns lh-copy measure center db">Pokemon go stuff gathered by a community. 6/7 raid bosses solo'd with level 30 pokemon without weather boost.</p>
 
             </div>
           </div>

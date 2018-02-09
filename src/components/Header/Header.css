@@ -10,6 +10,12 @@ small {
   font-size: 1rem;
 }
 
+.logo {
+  font-family: orbitron;
+  font-size: 1.25rem;
+}
+
+
 .home .App {
   background: #FF5F6D;
   background: -webkit-linear-gradient(to bottom, #FF5F6D, #FFC371);
@@ -45,6 +51,9 @@ background: linear-gradient(to bottom, #F012BE, #85144b);
 background-color: #F012BE;
 }
 
+.alakazam .submit:hover {
+background-color: #85144b;
+}
 
 .machamp .App {
 background-color: #FF4136;
@@ -54,6 +63,10 @@ background: linear-gradient(to bottom, #FF4136, #FF851B);
 
 .machamp .submit {
   background-color: #FF4136;
+}
+
+.machamp .submit:hover {
+background-color: #FF851B;
 }
 
 .gengar .App {
@@ -66,6 +79,10 @@ background: linear-gradient(to bottom, #B10DC9, #85144b);
 background-color: #B10DC9;
 }
 
+.gengar .submit:hover {
+background-color: #85144b;
+}
+
 .ninetales .App {
 background-color: #FF851B;
 background: -webkit-linear-gradient(to bottom, #FF851B, #FF4136);
@@ -74,6 +91,10 @@ background: linear-gradient(to bottom, #FF851B, #FF4136);
 
 .ninetales .submit {
 background-color: #FF851B;
+}
+
+.ninetales .submit:hover {
+background-color: #FF4136;
 }
 
 .omastar .App {
@@ -86,6 +107,9 @@ background: linear-gradient(to bottom, #0074D9, #7FDBFF);
 background-color: #0074D9;
 }
 
+.omastar .submit:hover {
+background-color: #7FDBFF;
+}
 
 .porygon .App {
 background-color: #AAAAAA;
