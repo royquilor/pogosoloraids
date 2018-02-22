@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://awwesome.com/p/",
   "dependencies": {
+    "pokemon-font": "^1.8.1",
     "react": "^16.2.0",
     "react-body-classname": "^1.2.0",
     "react-dom": "^16.2.0",

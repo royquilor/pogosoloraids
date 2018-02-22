@@ -14,7 +14,6 @@ const SiteNav = (props) => {
         <NavLink to="/Gengar" className="link dim mh2 pv3 pv0-ns" activeClassName="active ghost">Gengar</NavLink>
         <NavLink to="/Machamp" className="link dim mh2 pv3 pv0-ns" activeClassName="active fighting">Machamp</NavLink>
         <NavLink to="/Ninetales" className="link dim mh2 pv3 pv0-ns" activeClassName="active fire">Ninetales</NavLink>
-        <NavLink to="/Omastar" className="link dim mh2 pv3 pv0-ns" activeClassName="active water">Omastar</NavLink>
         {/*
         <NavLink to="/Porygon" activeClassName="active ">Porygon</NavLink>
         <NavLink to="/Scyther" activeClassName="active ">Scyther</NavLink>

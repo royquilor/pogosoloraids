@@ -38,9 +38,6 @@ class App extends Component {
             <Route exact path ='/gengar' component={Gengar} />
             <Route exact path ='/machamp' component={Machamp} />
             <Route exact path ='/ninetales' component={Ninetales} />
-            <Route exact path ='/omastar' component={Omastar} />
-            <Route exact path ='/porygon' component={Porygon} />
-            <Route exact path ='/scyther' component={Scyther} />
           </main>
         </div>
       </Router>

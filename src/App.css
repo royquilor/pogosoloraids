@@ -1,13 +1,17 @@
+:root {
+  --psychic-color: #F012BE;
+}
+
 html {
   height: 100%;
 }
 
 body {
-  display: flex;
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
+display: flex;
 min-height: 100vh;
 flex-direction: column;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
 }
 
 .App {
@@ -97,7 +101,11 @@ td:empty {
 }
 
 .psychic {
-  color: #F012BE;
+  color: var(--psychic-color);
+}
+
+.psychic {
+  xcolor: #F012BE;
 }
 
 .water {
