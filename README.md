@@ -9,18 +9,10 @@ Community gathered solo raids
 - unique counters
 - level 30
 - ~~flexbox nav mobile~~
-
-## Alakazam
-
-#### Psycho Cut
-- Focus Blast [link](url)
-- Shadow Ball [link](url)
-- Future Sight [link](url)
-
-#### Confusion
-- Focus Blast [link](url)
-- Shadow Ball [link](url)
-- Future Sight [link](url)
+- variables
+- duos
+- mewtwo three
+- legacy
 
 ## Machamp
 
@@ -45,3 +37,15 @@ Community gathered solo raids
 - Ancient Power [link](url)
 - Rock Blast [link](url)
 - Hydro Pump [link](url)
+
+## Alakazam
+
+#### Psycho Cut
+- Focus Blast [link](url)
+- Shadow Ball [link](url)
+- Future Sight [link](url)
+
+#### Confusion
+- Focus Blast [link](url)
+- Shadow Ball [link](url)
+- Future Sight [link](url)

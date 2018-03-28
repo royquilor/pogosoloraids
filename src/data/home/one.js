@@ -8,8 +8,6 @@ export default [
     classname:'',
     name: 'Lugia',
     moveset: 'Extrasensory, Sky Attack',
-    level:40,
-    cp:3573
   },{
     id: 1,
     raidboss: 'Porygon',
@@ -19,8 +17,6 @@ export default [
     classname:'',
     name: 'Dragonite',
     moveset: 'Dragon Tail, Outrage',
-    level:40,
-    cp:3000
   },{
     id: 2,
     raidboss: 'Porygon',
@@ -30,8 +26,6 @@ export default [
     classname:'',
     name: 'Donphan',
     moveset: 'Counter, Earthquake',
-    level:40,
-    cp:3014
   },{
     id: 3,
     raidboss: 'Porygon',
@@ -41,7 +35,5 @@ export default [
     classname:'',
     name: 'Donphan',
     moveset: 'Counter, Earthquake',
-    level:40,
-    cp:3014
   }
 ]

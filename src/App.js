@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App pa1 pa2-ns">
-          <main className="br2 pa3 pa5-ns">
+          <main className="br2 pa3 pa5-ns fadeInUp">
             <SiteNav />
             <Route exact path ='/' component={Home} />
             <Route exact path ='/alakazam' component={Alakazam} />

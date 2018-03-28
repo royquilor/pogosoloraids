@@ -8,9 +8,8 @@ class FastestPokemon extends React.Component {
         <tr>
           <TableCell>{this.props.id}</TableCell>
           <TableCell><span className={this.props.classname}>{this.props.name}</span></TableCell>
-          <TableCell>{this.props.trainer}</TableCell>
           <TableCell>{this.props.time}</TableCell>
-          <TableCell><a href={this.props.link}>Link</a></TableCell>
+          <TableCell><a href={this.props.link}>{this.props.trainer}</a></TableCell>
         </tr>
     )
   }

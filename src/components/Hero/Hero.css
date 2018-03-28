@@ -1,6 +1,6 @@
 header {
-font-family: Orbitron;
-color: #fff;
+font-family: var(--font-display);
+color: var(--white);
 }
 
 header h2 {
@@ -11,37 +11,7 @@ small {
   font-size: 1rem;
 }
 
-.alakazam header,
-.alakazam nav {
-background-color: #F012BE;
-}
-
 .machamp header,
 .machamp nav {
-background-color: #FF4136;
-}
-
-.gengar header,
-.gengar nav {
-background-color: #B10DC9;
-}
-
-.ninetales header,
-.ninetales nav {
-background-color: #FF851B;
-}
-
-.omastar header,
-.omastar nav {
-background-color: #0074D9;
-}
-
-.porygon header,
-.porygon nav {
-background-color: #AAAAAA;
-}
-
-.scyther header,
-.scyther nav  {
-background-color: #2ECC40;
+background-color: var(--fighting);
 }

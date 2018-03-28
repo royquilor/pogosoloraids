@@ -16,12 +16,11 @@ class FastestList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-3 fadeIn">
         <Table heading={"Fastest"}>
         <thead>
           <tr>
             <TableHeader>&nbsp;</TableHeader>
-            <TableHeader>Trainer</TableHeader>
             <TableHeader>Time Left</TableHeader>
             <TableHeader>Proof</TableHeader>
           </tr>

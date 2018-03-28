@@ -1,42 +1,46 @@
 import React, { Component } from 'react'
-import OnePokemon from './OnePokemon';
+import DuoPokemon from './DuoPokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
 
-class OneList extends Component {
+class DuoList extends Component {
 
   render() {
 
-    const { one } = this.props;
+    const { duo } = this.props;
 
-    const oneList = one.map(pokemon => {
+    const duoList = duo.map(pokemon => {
       return (
-        <OnePokemon
+        <DuoPokemon
           key={pokemon.id}
           raidboss={pokemon.raidboss}
           bossmoveset={pokemon.bossmoveset}
-          trainer={pokemon.trainer}
+          weather={pokemon.weather}
+          trainer1={pokemon.trainer1}
+          trainer2={pokemon.trainer2}
           classname={pokemon.classname}
           moveset={pokemon.moveset}
           name={pokemon.name}
+          cp={pokemon.cp}
           link={pokemon.link}/>
       )
     })
 
     return (
-      <div className="record-4 fadeIn one">
-        <Table heading={"1v1"}>
+      <div className="record-5 fadeIn">
+        <Table heading={"Duo"}>
         <thead>
           <tr>
             <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
-            <TableHeader>Counter</TableHeader>
+            <TableHeader>Weather</TableHeader>
+            <TableHeader>Counters</TableHeader>
             <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Proof</TableHeader>
           </tr>
         </thead>
         <tbody>
-          {oneList}
+          {duoList}
         </tbody>
         </Table>
       </div>
@@ -46,4 +50,4 @@ class OneList extends Component {
 
 }
 
-export default OneList;
+export default DuoList;

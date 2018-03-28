@@ -26,7 +26,7 @@ class MachampCloseCombatList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-1 fadeIn">
         <HeadingMoveset
           type1="fighting"
           fastmove="Close Combat">

@@ -16,7 +16,7 @@ class MvpList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-2 fadeIn">
         <Table heading={"MVP"}>
         <thead>
           <tr>

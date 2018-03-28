@@ -6,12 +6,25 @@ nav a {
 }
 
 .submit {
-  color: #fff;
+  background: var(--white);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  color: var(--white);
   font-weight: 600;
   letter-spacing: .1em;
   text-transform: uppercase;
   border-radius: 500px;
-  transition: all .2s ease-in-out;
+  xtransition: all .2s ease-in-out;
   text-align: center;
   text-decoration: none;
+  transition: all .15s ease;
+}
+
+.submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.submit:active{
+  transform: translateY(0px);
+  box-shadow: none;
 }

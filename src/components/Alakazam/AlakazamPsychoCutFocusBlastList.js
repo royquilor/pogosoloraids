@@ -26,7 +26,7 @@ class AlakazamPsychoCutFocusBlastList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-4 fadeIn">
         <HeadingMoveset
           type1="psychic"
           fastmove="Psycho Cut"

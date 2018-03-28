@@ -26,7 +26,7 @@ class AlakazamPsychoCutShadowBallList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-6 fadeIn">
         <HeadingMoveset
           type1="psychic"
           fastmove="Psycho Cut"

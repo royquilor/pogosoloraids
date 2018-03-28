@@ -26,7 +26,7 @@ class MachampDynamicPunchList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-2 fadeIn">
         <HeadingMoveset
           type1="fighting"
           fastmove="Dynamic Punch">

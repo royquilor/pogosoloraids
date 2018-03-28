@@ -26,7 +26,7 @@ class AlakazamConfusionShadowBallList extends Component {
     })
 
     return (
-      <div>
+      <div className="record-3 fadeIn">
         <HeadingMoveset
           type1="psychic"
           fastmove="Confusion"

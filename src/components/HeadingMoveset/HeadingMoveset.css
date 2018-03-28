@@ -1,7 +1,14 @@
 .heading-moveset span + span {
-margin-left: 1rem;
+margin-left: var(--base-spacing);
 }
 
 .heading-moveset span:empty {
  display: none;
+}
+
+.heading-moveset {
+  font-size: var(--base-font-size);
+  line-height: var(--lh-title);
+  font-weight: var(--fw4);
+  padding-bottom: var(--spacing2);
 }

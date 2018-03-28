@@ -3,7 +3,7 @@ import './HeadingMoveset.css'
 
 const HeadingMoveset = (props) => {
   return (
-    <h3 className="heading-moveset f6 f5-ns fw4 lh-copy nav flex xjustify-center items-center justify-between flex-column flex-row-ns">
+    <h3 className="heading-moveset nav flex items-center justify-between flex-column flex-row-ns mb0">
       <div className="">
         <span className={props.type1}>
           {props.fastmove}

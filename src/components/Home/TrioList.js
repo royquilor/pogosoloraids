@@ -1,21 +1,24 @@
 import React, { Component } from 'react'
-import OnePokemon from './OnePokemon';
+import TrioPokemon from './TrioPokemon';
 import Table from '../Table/Table';
 import TableHeader from '../Table/TableHeader'
 
-class OneList extends Component {
+class TrioList extends Component {
 
   render() {
 
-    const { one } = this.props;
+    const { trio } = this.props;
 
-    const oneList = one.map(pokemon => {
+    const trioList = trio.map(pokemon => {
       return (
-        <OnePokemon
+        <TrioPokemon
           key={pokemon.id}
           raidboss={pokemon.raidboss}
           bossmoveset={pokemon.bossmoveset}
-          trainer={pokemon.trainer}
+          weather={pokemon.weather}
+          trainer1={pokemon.trainer1}
+          trainer2={pokemon.trainer2}
+          trainer3={pokemon.trainer3}
           classname={pokemon.classname}
           moveset={pokemon.moveset}
           name={pokemon.name}
@@ -24,19 +27,20 @@ class OneList extends Component {
     })
 
     return (
-      <div className="record-4 fadeIn one">
-        <Table heading={"1v1"}>
+      <div className="record-6 fadeIn">
+        <Table heading={"Trio"}>
         <thead>
           <tr>
             <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Moveset</TableHeader>
-            <TableHeader>Counter</TableHeader>
+            <TableHeader>Weather</TableHeader>
+            <TableHeader>Counters</TableHeader>
             <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Proof</TableHeader>
           </tr>
         </thead>
         <tbody>
-          {oneList}
+          {trioList}
         </tbody>
         </Table>
       </div>
@@ -46,4 +50,4 @@ class OneList extends Component {
 
 }
 
-export default OneList;
+export default TrioList;

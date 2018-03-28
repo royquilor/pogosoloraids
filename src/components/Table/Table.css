@@ -8,17 +8,20 @@ th {
   position: sticky;
   top: 0;
   font-weight: 600;
-}
-
-th {
+  color: #AAAAAA;
   border-bottom-style: dashed;
   border-width: 1px;
   border-top-style: dashed;
+  line-height: var(--lh-title);
+  border-color: #DDD;
 }
 
 td {
   border-bottom-style: dashed;
   border-width: 1px;
+  line-height: var(--lh-title);
+  color: #111111;
+  border-color: #DDD;
 }
 
 .raidboss th:nth-child(3),
