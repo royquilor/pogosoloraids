@@ -4,7 +4,7 @@ import './Header.css'
 const Header = (props) => {
   return (
     <header className="pa3-ns mw8 center cf pv3 pv6-ns" data-name="slab-stat">
-      <h1 className="f4 f2-ns fw6 mt0 mb3 tc fadeIn"><span className={props.type}>{props.pokemon}</span></h1>
+      <h1 className="f4 f2-ns fw6 mt0 mb3 tc fadeIn">{props.pokemon}</h1>
       <div className="flex flex-wrap justify-center-ns">
         <dl className="pv1 pv3-ns ph2 ph4-ns">
           <dd className="f3 fw6 perfectcp-stat fadeInDown">{props.regularcp}</dd>

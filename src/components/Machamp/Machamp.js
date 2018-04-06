@@ -17,7 +17,7 @@ class Machamp extends Component {
   render() {
 
     return (
-      <BodyClassName className="raidboss machamp">
+      <BodyClassName className="raidboss fighting-type-theme">
         <div>
           <Header
             pokemon="Machamp"

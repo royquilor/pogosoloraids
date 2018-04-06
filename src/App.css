@@ -21,6 +21,95 @@
   --lh-title: 1.5;
   --fw4: 400;
   --ls1: .1em;
+
+  --home-theme-color-1: #FF5F6D;
+  --home-theme-color-2: #FFC371;
+
+  --fighting-type-theme-color-1: #FF4136;
+  --fighting-type-theme-color-2: #FF851B;
+
+  --fire-type-theme-color-1: #FF851B;
+  --fire-type-theme-color-2: #FF4136;
+
+  --ghost-type-theme-color-1: #B10DC9;
+  --ghost-type-theme-color-2: #85144b;
+
+  --psychic-type-theme-color-1: #F012BE;
+  --psychic-type-theme-color-2: #85144b;
+
+  --water-type-theme-color-1: #0074D9;
+  --water-type-theme-color-2: #7FDBFF;
+
+}
+
+.home-theme .App,
+.home-theme h1,
+.home-theme .submit  {
+  --background-color-1: var(--home-theme-color-1);
+  --background-color-2: var(--home-theme-color-2);
+}
+
+.fighting-type-theme .App,
+.fighting-type-theme h1,
+.fighting-type-theme .submit,
+.fighting-type-theme .submit:hover  {
+  --background-color-1: var(--fighting-type-theme-color-1);
+  --background-color-2: var(--fighting-type-theme-color-2);
+}
+
+.fire-type-theme .App,
+.fire-type-theme h1,
+.fire-type-theme .submit,
+.fire-type-theme .submit:hover  {
+  --background-color-1: var(--fire-type-theme-color-1);
+  --background-color-2: var(--fire-type-theme-color-2);
+}
+
+.ghost-type-theme .App,
+.ghost-type-theme h1,
+.ghost-type-theme .submit,
+.ghost-type-theme .submit:hover  {
+  --background-color-1: var(--ghost-type-theme-color-1);
+  --background-color-2: var(--ghost-type-theme-color-2);
+}
+
+.psychic-type-theme .App,
+.psychic-type-theme h1,
+.psychic-type-theme .submit,
+.psychic-type-theme .submit:hover  {
+  --background-color-1: var(--psychic-type-theme-color-1);
+  --background-color-2: var(--psychic-type-theme-color-2);
+}
+
+.water-type-theme .App,
+.water-type-theme h1,
+.water-type-theme .submit,
+.water-type-theme .submit:hover  {
+  --background-color-1: var(--water-type-theme-color-1);
+  --background-color-2: var(--water-type-theme-color-2);
+}
+
+/* THEMEABLE BITS */
+
+.App {
+  transition: all .2s ease-in-out;
+  background: var(--background-color-1);
+  background: -webkit-linear-gradient(to bottom, var(--background-color-1), var(--background-color-2));
+  background: linear-gradient(to bottom, var(--background-color-1), var(--background-color-2));
+}
+
+h1 {
+  background: -webkit-linear-gradient(var(--background-color-1), var(--background-color-2));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.submit {
+  background-color: var(--background-color-1);
+}
+
+.submit:hover {
+  background-color: var(--background-color-2);
 }
 
 .js-loading *,
@@ -40,10 +129,6 @@ flex-direction: column;
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 min-height: 100%;
-}
-
-.App {
-transition: all .2s ease-in-out;
 }
 
 main {
@@ -69,7 +154,7 @@ h3 {
   font-weight: var(--fw4);
 }
 
-.home h3 {
+.home-theme h3 {
   font-size: 1.5rem;
   font-family: var(--font-display);
   text-transform: uppercase;
@@ -80,6 +165,11 @@ h3 {
 
 .hero p {
   font-size: var(--base-font-size);
+}
+
+.perfect th:nth-child(3),
+.perfect td:nth-child(4) {
+  text-align: right;
 }
 
 h3:empty {

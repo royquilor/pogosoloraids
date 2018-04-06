@@ -20,13 +20,13 @@ class PerfectList extends Component {
     })
 
     return (
-      <div className="perfect record-1 fadeIn">
+      <div className="perfect record-1 fadeIn perfect">
         <Table heading={"Perfect IV"}>
         <thead>
           <tr>
             <TableHeader>&nbsp;</TableHeader>
-            <TableHeader>Perfect CP</TableHeader>
-            <TableHeader>Boosted</TableHeader>
+            <TableHeader>Level 20 CP</TableHeader>
+            <TableHeader>Weather Boosted</TableHeader>
           </tr>
         </thead>
         <tbody>

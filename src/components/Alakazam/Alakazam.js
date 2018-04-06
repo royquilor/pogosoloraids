@@ -23,7 +23,7 @@ class Alakazam extends Component {
   render() {
 
     return (
-      <BodyClassName className="raidboss alakazam">
+      <BodyClassName className="raidboss psychic-type-theme">
         <div>
           <Header
             pokemon="Alakazam"

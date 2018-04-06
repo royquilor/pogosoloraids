@@ -11,22 +11,6 @@ small {
   font-size: 1rem;
 }
 
-.home .App {
-  background: #FF5F6D;
-  background: -webkit-linear-gradient(to bottom, #FF5F6D, #FFC371);
-  background: linear-gradient(to bottom, #FF5F6D, #FFC371);
-}
-
-.home .submit {
-  background-color: #FF5F6D;
-}
-
-.home h1 {
-  background: -webkit-linear-gradient(#FF5F6D, #FFC371);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
-
 .raidboss th:nth-child(3),
 .raidboss th:nth-child(4),
 .raidboss th:nth-child(5),
@@ -34,84 +18,6 @@ small {
 .raidboss td:nth-child(5),
 .raidboss td:nth-child(6) {
   text-align: right;
-}
-
-.alakazam .App {
-background-color: #F012BE;
-background: -webkit-linear-gradient(to bottom, #F012BE, #85144b);
-background: linear-gradient(to bottom, #F012BE, #85144b);
-}
-
-.alakazam .submit {
-background-color: #F012BE;
-}
-
-.alakazam .submit:hover {
-background-color: #85144b;
-}
-
-.machamp .App {
-background-color: var(--fighting);
-background: -webkit-linear-gradient(to bottom, var(--fighting), #FF851B);
-background: linear-gradient(to bottom, var(--fighting), #FF851B);
-}
-
-.machamp .submit {
-  background-color: var(--fighting);
-}
-
-.machamp .submit:hover {
-background-color: #FF851B;
-}
-
-.gengar .App {
-background-color: #B10DC9;
-background: -webkit-linear-gradient(to bottom, #B10DC9, #85144b);
-background: linear-gradient(to bottom, #B10DC9, #85144b);
-}
-
-.gengar .submit {
-background-color: #B10DC9;
-}
-
-.gengar .submit:hover {
-background-color: #85144b;
-}
-
-.ninetales .App {
-background-color: #FF851B;
-background: -webkit-linear-gradient(to bottom, #FF851B, #FF4136);
-background: linear-gradient(to bottom, #FF851B, #FF4136);
-}
-
-.ninetales .submit {
-background-color: #FF851B;
-}
-
-.ninetales .submit:hover {
-background-color: #FF4136;
-}
-
-.omastar .App {
-background-color: #0074D9;
-background: -webkit-linear-gradient(to bottom, #0074D9, #7FDBFF);
-background: linear-gradient(to bottom, #0074D9, #7FDBFF);
-}
-
-.omastar .submit {
-background-color: #0074D9;
-}
-
-.omastar .submit:hover {
-background-color: #7FDBFF;
-}
-
-.porygon .App {
-background-color: #AAAAAA;
-}
-
-.scyther .App {
-background-color: #2ECC40;
 }
 
 dd:first-child {

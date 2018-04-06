@@ -20,7 +20,7 @@ class Home extends Component {
   render() {
 
     return (
-      <BodyClassName className="home">
+      <BodyClassName className="home-theme">
       <div className="black-70">
         <div className="w-100 cf tc-m hero pv4 pa3 pt6-ns ">
           <div className="mw7 center tl ">
