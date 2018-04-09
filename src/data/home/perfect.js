@@ -27,8 +27,8 @@ export default [
     id: 229,
     type: "dark",
     raidboss: 'Houndoom',
-    perfectcp: '?',
-    boostedcp: '?'
+    perfectcp: '1445',
+    boostedcp: '1806'
   },{
     id: 359,
     type: "dark",
@@ -39,8 +39,8 @@ export default [
     id: 365,
     type: "ice",
     raidboss: 'Walrein',
-    perfectcp: '?',
-    boostedcp: '?'
+    perfectcp: '1489',
+    boostedcp: '1862'
   },{
     id: 306,
     type: "steel",
@@ -75,13 +75,13 @@ export default [
     id: 210,
     type: "fairy",
     raidboss: 'Granbull',
-    perfectcp: '?',
-    boostedcp: '?'
+    perfectcp: '1394',
+    boostedcp: '1743'
   },{
     id: 127,
     type: "bug",
     raidboss: 'Pinsir',
-    perfectcp: '?',
-    boostedcp: '?'
+    perfectcp: '1583',
+    boostedcp: '1978'
   },
 ]
