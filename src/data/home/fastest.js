@@ -31,5 +31,13 @@ export default [
     time: '45',
     notes: '',
     classname:''
+  },{
+    id: 124,
+    name: 'Jynx',
+    trainer: 'Brent Marinello',
+    link: 'https://www.youtube.com/watch?v=kb1pwaM4bdI',
+    time: '72',
+    notes: '',
+    classname:''
   }
 ]
