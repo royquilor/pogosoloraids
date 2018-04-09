@@ -21,8 +21,7 @@
   --ice: #7FDBFF;
   --normal: #AAAAAA;
   --psychic: #F012BE;
-  --psychic: #f366b9;
-  --poison: #B10DC9;
+  --poison: #85144b;
   --steel: #9eb7b8;
   --water: #0074D9;
   --lh-title: 1.5;
@@ -236,14 +235,17 @@ td:empty {
 .dragon * { color: var(--dragon);}
 .electric * {color: var(--electric);}
 .fairy * {color: var(--fairy);}
+.fighting,
 .fighting * {color: var(--fighting);}
 .fire * {color: var(--fire);}
 .flying * {color: var(--flying);}
+.ghost,
 .ghost * {color: var(--ghost);}
 .grass * {color: var(--grass);}
 .ground * {color: var(--ground);}
 .ice * {color: var(--ice);}
 .normal * {color: var(--normal);}
+.poison,
 .poison * {color: var(--poison);}
 .psychic,
 .psychic * {color: var(--psychic);}

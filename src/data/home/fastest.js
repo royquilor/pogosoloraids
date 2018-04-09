@@ -2,30 +2,34 @@ export default [
   {
     id: 0,
     name: 'Machamp',
-    trainer: 'ProdigiesNation',
-    link: 'www',
-    time: '62',
+    trainer: 'KingVALENTIN88',
+    link: 'https://www.youtube.com/watch?v=zVVtGiZhSGM',
+    time: '60',
+    notes: 'without mewtwo',
     classname:''
   },{
     id: 1,
-    name: 'Alakazam',
+    name: 'Machamp',
+    trainer: 'Michael Fusselman',
+    link: 'https://www.youtube.com/watch?v=-b-N53QCZvw',
+    time: '62',
+    notes: 'with 2 mewtwos',
+    classname:''
+  },{
+    id: 1,
+    name: 'Gengar',
     trainer: 'KaitoNolan',
-    link: 'www',
-    time: '30',
+    link: 'https://www.youtube.com/watch?v=RjpZfGllPWg&t=13s',
+    time: '54',
+    notes: '',
     classname:''
   },{
     id: 2,
-    name: 'Gengar',
-    trainer: 'PokeCuno',
-    link: 'www',
-    time: '20',
-    classname:''
-  },{
-    id: 3,
-    name: 'Scyther',
-    trainer: 'YoYo',
-    link: 'https://www.youtube.com/watch?v=JHJIsFD-0Sc',
-    time: '62',
+    name: 'Alakazam',
+    trainer: 'Júlio Celião',
+    link: 'https://www.youtube.com/watch?v=ZemVjgG8zoY&t=11s',
+    time: '45',
+    notes: '',
     classname:''
   }
 ]

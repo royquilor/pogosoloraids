@@ -11,7 +11,15 @@ class FastestList extends Component {
 
     const fastestList = fastest.map(pokemon => {
       return (
-        <FastestPokemon key={pokemon.id} name={pokemon.name} trainer={pokemon.trainer} time={pokemon.time} link={pokemon.link} classname={pokemon.classname}/>
+        <FastestPokemon
+          key={pokemon.id}
+          name={pokemon.name}
+          trainer={pokemon.trainer}
+          time={pokemon.time}
+          link={pokemon.link}
+          notes={pokemon.notes}
+          classname={pokemon.classname}
+        />
       )
     })
 
@@ -23,6 +31,7 @@ class FastestList extends Component {
             <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Time Left</TableHeader>
             <TableHeader>Proof</TableHeader>
+            <TableHeader>&nbsp;</TableHeader>
           </tr>
         </thead>
         <tbody>
