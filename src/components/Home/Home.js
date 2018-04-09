@@ -6,14 +6,13 @@ import fastest from '../../data/home/fastest'
 import one from '../../data/home/one'
 import duo from '../../data/home/duo'
 import trio from '../../data/home/trio'
-import perfect from '../../data/home/perfect'
 
 import MvpList from './MvpList';
 import FastestList from './FastestList';
 import OneList from './OneList';
 import DuoList from './DuoList';
 import TrioList from './TrioList';
-import PerfectList from './PerfectList';
+
 
 class Home extends Component {
 
@@ -33,7 +32,6 @@ class Home extends Component {
           </div>
         </div>
         <div className="pa3-ns mw8 center">
-          <PerfectList perfect={perfect} />
           <FastestList fastest={fastest} />
           <OneList one={one} />
           <DuoList duo={duo} />

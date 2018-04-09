@@ -13,6 +13,7 @@ class PerfectList extends Component {
       return (
         <PerfectPokemon
           key={pokemon.id}
+          type={pokemon.type}
           raidboss={pokemon.raidboss}
           perfectcp={pokemon.perfectcp}
           boostedcp={pokemon.boostedcp}/>
@@ -21,12 +22,12 @@ class PerfectList extends Component {
 
     return (
       <div className="perfect record-1 fadeIn perfect">
-        <Table heading={"Perfect IV"}>
+        <Table heading={""}>
         <thead>
           <tr>
             <TableHeader>&nbsp;</TableHeader>
-            <TableHeader>Level 20 CP</TableHeader>
-            <TableHeader>Weather Boosted</TableHeader>
+            <TableHeader>Lv20</TableHeader>
+            <TableHeader>Lv25</TableHeader>
           </tr>
         </thead>
         <tbody>

@@ -15,6 +15,7 @@ import Ninetales from './components/Ninetales/Ninetales';
 import Omastar from './components/Omastar/Omastar';
 import Porygon from './components/Porygon/Porygon';
 import Scyther from './components/Scyther/Scyther';
+import Perfect from './components/Perfect/Perfect';
 import BlankState from './components/BlankState/BlankState';
 
 import './App.css';
@@ -38,7 +39,8 @@ class App extends Component {
             <Route exact path ='/alakazam' component={Alakazam} />
             <Route exact path ='/gengar' component={Gengar} />
             <Route exact path ='/machamp' component={Machamp} />
-            <Route exact path ='/BlankState' component={BlankState} />
+            <Route exact path ='/perfect' component={Perfect} />
+            <Route exact path ='/blank' component={BlankState} />
           </main>
         </div>
       </Router>
