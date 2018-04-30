@@ -117,6 +117,15 @@
   --color-2: var(--water-type-theme-color-2);
 }
 
+/* @keyframes pulsate {
+  0% {
+    --color-1: var(--home-theme-color-1);
+  }
+  100% {
+    --color-2: var(--home-theme-color-2);
+  }
+} */
+
 /* THEMEABLE BITS */
 
 .App {
@@ -147,6 +156,15 @@ h1 {
 
 .active {
   color: var(--color-1);
+}
+
+@keyframes pulsate {
+  0% {
+    color: var(--home-theme-color-1);
+  }
+  100% {
+    color: var(--home-theme-color-2);
+  }
 }
 
 .js-loading *,
@@ -366,6 +384,16 @@ td:empty {
   padding-bottom: 0;
   border: 0;
 }
+
+
+
+
+.pulsate {
+  -webkit-animation: pulsate 5s linear infinite;
+  animation: pulsate 5s linear infinite;
+}
+
+
 
 /* .one td:nth-child(2),
 .one td:nth-child(4){

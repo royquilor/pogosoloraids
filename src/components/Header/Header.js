@@ -14,10 +14,12 @@ const Header = (props) => {
           <dd className="f3 fw6 weatherboost-stat fadeInDown">{props.weatherboostcp}</dd>
           <dd className="f7 fw4 weatherboost fadeIn">Weather Boost</dd>
         </dl>
+        {/*
         <dl className="pv1 pv3-ns ph2 ph4-ns">
           <dd className="f3 fw6 prefers-stat fadeInDown">{props.likes}</dd>
           <dd className="f7 fw4 prefers fadeIn">Prefers</dd>
         </dl>
+        */}
       </div>
     </header>
 

@@ -33,6 +33,12 @@ class Alakazam extends Component {
             likes="Windy"
             />
           <Wrap>
+          <nav class="pv4">
+  <div class="tabs mb4">
+    <a class="link dib mr3" href="#" title="Link 1">Windy boost</a>
+  </div>
+</nav>
+          <h2 className="f4 ttn mb5">No Weather Boost</h2>
           <AlakazamConfusionFocusBlastList alakazamcfb={alakazamcfb} />
           <AlakazamConfusionFutureSightList alakazamcfs={alakazamcfs} />
           <AlakazamConfusionShadowBallList alakazamcsb={alakazamcsb} />
