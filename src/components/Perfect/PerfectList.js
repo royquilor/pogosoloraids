@@ -27,7 +27,7 @@ class PerfectList extends Component {
           <tr>
             <TableHeader>&nbsp;</TableHeader>
             <TableHeader>Lv20</TableHeader>
-            <TableHeader>Lv25</TableHeader>
+            <TableHeader>Boosted</TableHeader>
           </tr>
         </thead>
         <tbody>

@@ -32,10 +32,15 @@ class Home extends Component {
           </div>
         </div>
         <div className="pa3-ns mw8 center">
-          <FastestList fastest={fastest} />
-          <OneList one={one} />
+          <MvpList mvp={mvp} />
+          <h3>Latios</h3>
+          <p className="tc">Minimum 5 level 30 trainers with correct counters</p>
           <DuoList duo={duo} />
           <TrioList trio={trio} />
+          {/*
+            <FastestList fastest={fastest} />
+            <OneList one={one} />
+          */}
         </div>
       </div>
       </BodyClassName>

@@ -41,5 +41,11 @@ export default [
     moveset: 'Counter, Dynamic Punch',
     raidboss: 'Porygon, Cloyster',
     classname:''
+  },{
+    id: 7,
+    name: 'Rayquaza',
+    moveset: 'Dragon Tail, Outrage',
+    raidboss: 'Latios, Latias',
+    classname:''
   }
 ]
