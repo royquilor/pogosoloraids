@@ -270,6 +270,35 @@ td:empty {
 .steel * {color: var(--steel);}
 .water * {color: var(--water);}
 
+/* Tabs */
+
+.react-tabs {
+
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: calc(var(--base-spacing) * 3);
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-tabs__tab {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.react-tabs__tab--selected {
+  color: var(--color-1);
+  border-bottom-color: var(--color-1);
+}
+
 /* .home h3 {
   font-family: var(--font-display);
 } */
@@ -384,9 +413,6 @@ td:empty {
   padding-bottom: 0;
   border: 0;
 }
-
-
-
 
 .pulsate {
   -webkit-animation: pulsate 5s linear infinite;

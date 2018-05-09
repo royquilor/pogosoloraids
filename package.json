@@ -11,6 +11,7 @@
     "react-font-face": "^0.2.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
+    "react-tabs": "^2.2.2",
     "react-weathericons": "^1.0.4"
   },
   "scripts": {
