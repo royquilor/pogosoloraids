@@ -1,16 +1,14 @@
 import React, { Component } from 'react'
 import BodyClassName from 'react-body-classname'
 
-import gengarfb from '../../data/gengar/gengarFocusBlast'
-import gengarsgb from '../../data/gengar/gengarSludgeBomb'
-import gengarsb from '../../data/gengar/gengarShadowBall'
-
-import GengarFocusBlastList from './GengarFocusBlastList';
-import GengarSludgeBombList from './GengarSludgeBombList';
-import GengarShadowBallList from './GengarShadowBallList';
+import GengarExtremeTable from './GengarExtremeTable';
+import GengarCloudyTable from './GengarCloudyTable';
+import GengarFogTable from './GengarFogTable';
 
 import Wrap from '../Wrap/Wrap';
 import Header from '../Header/Header';
+
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 class Gengar extends Component {
 
@@ -24,12 +22,26 @@ class Gengar extends Component {
           type="ghost"
           regularcp="1496"
           weatherboostcp="1870"
-          likes="Cloudy, Foggy"
+          likes="Cloudy, Fog"
           />
         <Wrap>
-          <GengarFocusBlastList gengarfb={gengarfb} />
-          <GengarSludgeBombList gengarsgb={gengarsgb} />
-          <GengarShadowBallList gengarsb={gengarsb} />
+        <Tabs>
+          <TabList>
+            <Tab>Extreme</Tab>
+            <Tab>Cloudy</Tab>
+            <Tab>Fog</Tab>
+          </TabList>
+
+          <TabPanel>
+            <GengarExtremeTable />
+          </TabPanel>
+          <TabPanel>
+            <GengarCloudyTable />
+          </TabPanel>
+          <TabPanel>
+            <GengarFogTable />
+          </TabPanel>
+        </Tabs>
         </Wrap>
       </div>
       </BodyClassName>
