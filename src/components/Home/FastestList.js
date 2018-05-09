@@ -29,7 +29,7 @@ class FastestList extends Component {
         <thead>
           <tr>
             <TableHeader>&nbsp;</TableHeader>
-            <TableHeader>Time Left</TableHeader>
+            <TableHeader>Time</TableHeader>
             <TableHeader>Proof</TableHeader>
             <TableHeader>&nbsp;</TableHeader>
           </tr>

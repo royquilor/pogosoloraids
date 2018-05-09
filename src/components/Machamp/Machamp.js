@@ -1,16 +1,13 @@
 import React, { Component } from 'react'
 import BodyClassName from 'react-body-classname'
 
-import machampcc from '../../data/machamp/machampCloseCombat'
-import machampdp from '../../data/machamp/machampDynamicPunch'
-import machamphs from '../../data/machamp/machampHeavySlam'
-
-import MachampCloseCombatList from './MachampCloseCombatList';
-import MachampDynamicPunchList from './MachampDynamicPunchList';
-import MachampHeavySlamList from './MachampHeavySlamList';
-
 import Wrap from '../Wrap/Wrap';
 import Header from '../Header/Header';
+
+import MachampExtremeTable from './MachampExtremeTable';
+import MachampCloudyTable from './MachampCloudyTable';
+
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 class Machamp extends Component {
 
@@ -27,9 +24,19 @@ class Machamp extends Component {
             likes="Cloudy"
             />
           <Wrap>
-            <MachampCloseCombatList machampcc={machampcc} />
-            <MachampDynamicPunchList machampdp={machampdp} />
-            <MachampHeavySlamList machamphs={machamphs} />
+          <Tabs>
+            <TabList>
+              <Tab>Extreme</Tab>
+              <Tab>Cloudy</Tab>
+            </TabList>
+
+            <TabPanel>
+              <MachampExtremeTable />
+            </TabPanel>
+            <TabPanel>
+              <MachampCloudyTable />
+            </TabPanel>
+          </Tabs>
           </Wrap>
         </div>
       </BodyClassName>
