@@ -17,6 +17,11 @@ import AlakazamPsychoCutShadowBallList from './AlakazamPsychoCutShadowBallList';
 
 import Wrap from '../Wrap/Wrap';
 import Header from '../Header/Header';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 
 class Alakazam extends Component {
 
@@ -33,12 +38,17 @@ class Alakazam extends Component {
             likes="Windy"
             />
           <Wrap>
-          <nav class="pv4">
-  <div class="tabs mb4">
-    <a class="link dib mr3" href="#" title="Link 1">Windy boost</a>
+          <nav class="pb4 pt2 tc">
+          <Router>
+            <Switch>
+              <Router path="/" component
+            </Switch>
+          </Router>
+  <div class="tabs mb4 ttu dib">
+    <a class="link dib mr3 pv3 ph4 ma0" href="#" title="Link 1">Extreme</a>
+    <a class="link dib mr3 pv3 ph4 ma0" href="#" title="Link 1">Windy</a>
   </div>
 </nav>
-          <h2 className="f4 ttn mb5">No Weather Boost</h2>
           <AlakazamConfusionFocusBlastList alakazamcfb={alakazamcfb} />
           <AlakazamConfusionFutureSightList alakazamcfs={alakazamcfs} />
           <AlakazamConfusionShadowBallList alakazamcsb={alakazamcsb} />
