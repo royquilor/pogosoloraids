@@ -13,6 +13,7 @@ import OneList from './OneList';
 import DuoList from './DuoList';
 import TrioList from './TrioList';
 
+import Collapsible from 'react-collapsible';
 
 class Home extends Component {
 
@@ -27,14 +28,16 @@ class Home extends Component {
               <h1 className="f2 fw6 f1-ns lh-solid mb3 mt0 ttu fadeIn">Pokemon go unoffical record keeper</h1>
             </div>
             <div className="tc mb4-ns xw-50-ns xfl-ns">
-              <p className="f6 f5-ns lh-copy measure center db fadeIn">Pokemon go stuff gathered by a community. Raid bosses solod with level 30 pokemon without weather boost.</p>
+              <p className="f6 f5-ns lh-copy measure center db fadeIn">Pokemon go stuff gathered by a community. With or without mewtwo and other legendaries.</p>
             </div>
           </div>
         </div>
         <div className="pa3-ns mw8 center">
           <FastestList fastest={fastest} />
           <OneList one={one} />
-          <DuoList duo={duo} />
+          <Collapsible trigger="Start here">
+            <DuoList duo={duo} />
+          </Collapsible>
           <TrioList trio={trio} />
         </div>
       </div>

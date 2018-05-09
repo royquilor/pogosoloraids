@@ -10,8 +10,8 @@ const SiteNav = (props) => {
     <nav className="pa3 nav flex xjustify-center items-center justify-between flex-column xflex-row-l relative">
       <NavLink to="/" exact={true} className="link logo f5 f4-ns pt1 pto-ns lh-solid absolute top-0 left-0 xrelative-l" activeClassName="active">RaidRec</NavLink>
       <div className="f7 f6-ns tc tc-ns pv3 pv0-l">
-        <NavLink to="/Alakazam" className="link mh2 pv3 pv0-ns" activeClassName="active">Alakazam</NavLink>
-        <NavLink to="/Gengar" className="link mh2 pv3 pv0-ns" activeClassName="active">Gengar</NavLink>
+      <NavLink to="/Alakazam" className="link mh2 pv3 pv0-ns" activeClassName="active">Alakazam</NavLink>
+      <NavLink to="/Gengar" className="link mh2 pv3 pv0-ns" activeClassName="active">Gengar</NavLink>  
         <NavLink to="/Machamp" className="link mh2 pv3 pv0-ns" activeClassName="active">Machamp</NavLink>
         <NavLink to="/perfect" className="link mh2 pv3 pv0-ns" activeClassName="active">Perfect</NavLink>
         <NavLink to="/blank" className="link mh2 pv3 pv0-ns" activeClassName="active">Test</NavLink>
